@@ -1,14 +1,22 @@
 <template>
   <div class="header">
-    <h1>{{ msg }}</h1>  
+    <h1>header</h1>  
+    <nav>
+    <RouterLink to="/login">Login</RouterLink>
+  </nav>
+  <h1>{{ loggedIn }}</h1>  
   </div>
+  
 </template>
 
 <script>
 export default {
   name: 'MainHeader',
   props: {
-    msg: String
+    loggedIn: {
+      type: String,
+      default: ""
+    }
   }
 }
 </script>

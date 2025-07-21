@@ -1,15 +1,32 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <MainHeader msg="site name"/>
+  <MainHeader :logged-in="email" />
+    <main>
+    <RouterView />
+  </main>
 </template>
 
 <script>
 import MainHeader from './components/Header.vue'
+import { auth } from './main.js' // Adjust path if needed
+import { onAuthStateChanged } from 'firebase/auth'
 
 export default {
   name: 'App',
   components: {
-    MainHeader
+    MainHeader,
+  },
+  data() {
+    return {
+      uid: null,
+      email: null
+    }
+  },
+  mounted() {
+    onAuthStateChanged(auth, user => {
+      this.uid = user ? user.uid : null
+      this.email = user ? user.email : null
+    })
   }
 }
 </script>
