@@ -24,3 +24,22 @@ Symfony for the application, a MySQL database + javascript for connecting API
 
 ### approved by:
 Not yet approved
+
+
+Vue.js for the application, firebase database
+### pro's:
+- great for frontend
+- small managable online database
+- easy to integrate API into application
+- small in size
+- fast
+- pretty easy to learn due to files consisting of web development basics:
+  - HTML
+  - CSS
+  - JavaScript
+### cons:
+- has to be leant from the start
+- costs? for firebase maybe
+
+### approved by:
+Not yet approved
