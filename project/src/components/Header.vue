@@ -3,7 +3,7 @@
     <h1>header</h1>  
     <nav>
     <RouterLink to="/login">Login</RouterLink>
-    <RouterLink to="/test">test</RouterLink>
+    <RouterLink to="/test">Class</RouterLink>
     </nav>
   <h1>{{ loggedIn }}</h1>  
   </div>
@@ -25,7 +25,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .header h1 {
-  color: #a3ce09;
+  color: #0996ce;
   font-size: 2em;
   margin: 0;
   
@@ -39,7 +39,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #a3ce09;
+  color: #0996ce;
   margin: 10px 0px 10px 0px ;
 }
 nav {
@@ -51,7 +51,7 @@ nav {
 }
 .header {
   text-align: center;
-  background-color: #3a3a3a;
+  background-color: #5a257e;
   color: white;
   margin: 0px;
   display: flex;
