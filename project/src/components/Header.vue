@@ -3,7 +3,8 @@
     <h1>header</h1>  
     <nav>
     <RouterLink to="/login">Login</RouterLink>
-  </nav>
+    <RouterLink to="/test">Class</RouterLink>
+    </nav>
   <h1>{{ loggedIn }}</h1>  
   </div>
   
@@ -24,11 +25,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .header h1 {
-  color: #42b983;
+  color: #0996ce;
   font-size: 2em;
   margin: 0;
-  display: flex;
-  flex-direction: row;
+  
 }
 ul {
   list-style-type: none;
@@ -39,12 +39,23 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #0996ce;
+  margin: 10px 0px 10px 0px ;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 300px;
 }
 .header {
   text-align: center;
-  background-color: #2c3e50;
+  background-color: #5a257e;
   color: white;
   margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 </style>
