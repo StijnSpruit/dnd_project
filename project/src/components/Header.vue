@@ -4,6 +4,7 @@
     <nav>
     <RouterLink to="/login">Login</RouterLink>
     <RouterLink to="/test">Class</RouterLink>
+    <RouterLink to="/character_builder">Character builder</RouterLink>
     </nav>
   <h1>{{ loggedIn }}</h1>  
   </div>
