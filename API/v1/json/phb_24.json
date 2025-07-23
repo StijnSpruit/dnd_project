@@ -1,0 +1,160 @@
+{
+    "species": [
+        {
+            "name": "Aasimar",
+            "creature_type": "Humanoid",
+            "size": "Small / Medium",
+            "speed": 30,
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                },
+                {
+                    "name": "Celestial Resistance",
+                    "desc": "You have resistance to necrotic damage and radiant damage."
+                }
+            ]
+        },
+        {
+            "name": "Dragonborn",
+            "creature_type": "Humanoid",
+            "size": "Medium",
+            "speed": 30,
+            "traits": [
+                {
+                    "name": "Draconic Ancestry",
+                    "desc": "You have a draconic ancestry that determines your damage resistance and breath weapon."
+                },
+                {
+                    "name": "Breath Weapon",
+                    "desc": "You can use your action to exhale destructive energy. The type of damage depends on your draconic ancestry."
+                }
+            ]
+        },
+        {
+            "name": "Dwarf",
+            "creature_type": "Humanoid",
+            "size": "Medium",
+            "speed": 25,
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                },
+                {
+                    "name": "Dwarven Resilience",
+                    "desc": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+                }
+            ]
+        },
+        {
+            "name": "Elf",
+            "creature_type": "Humanoid",
+            "size": "Medium",
+            "speed": 30,
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                },
+                {
+                    "name": "Fey Ancestry",
+                    "desc": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+                }
+            ]
+        },
+        {
+            "name": "Gnome",
+            "creature_type": "Humanoid",
+            "size": "Small",
+            "speed": 25,
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                },
+                {
+                    "name": "Gnome Cunning",
+                    "desc": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+                }
+            ]
+        },
+        {
+            "name": "Half-Elf",
+            "creature_type": "Humanoid",
+            "size": "Medium",
+            "speed": 30,
+            "traits": [
+                {
+                    "name": "Fey Ancestry",
+                    "desc": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+                },
+                {
+                    "name": "Skill Versatility",
+                    "desc": "You gain proficiency in two skills of your choice."
+                }
+            ]
+        },
+        {
+            "name": "Halfling",
+            "creature_type": "Humanoid",
+            "size": "Small",
+            "speed": 25,
+            "traits": [
+                {
+                    "name": "Lucky",
+                    "desc": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+                },
+                {
+                    "name": "Brave",
+                    "desc": "You have advantage on saving throws against being frightened."
+                }
+            ]
+        },
+        {
+            "name": "Human",
+            "creature_type": "Humanoid",
+            "size": "Medium",
+            "speed": 30,
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Orc",
+            "creature_type": "Humanoid",
+            "size": "Medium",
+            "speed": 30,
+            "traits": [
+                {
+                    "name": "Adreline rush",
+                    "desc": "You can take the dash action as a bonus action on your turn. When you do so, you gain a number of temporary hit points equal to your proficiency bonus. You regain all expended uses after a short rest or long rest."
+                },
+                {
+                    "name": "Powerful Build",
+                    "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                }
+            ]
+        },
+        {
+            "name": "Tiefling",
+            "creature_type": "Humanoid",
+            "size": "Medium",
+            "speed": 30,
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                },
+                {
+                    "name": "Hellish Resistance",
+                    "desc": "You have resistance to fire damage."
+                }
+            ]
+        }
+    ]
+}

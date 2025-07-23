@@ -77,76 +77,84 @@
             <div class="row-two-cols">
                 <div class="col">
                     <div class="details">
-                        <h3>Class Information</h3>
-                        <p><strong>Class:</strong> {{ getCharacter.class }}</p>
-                        <p v-if="getCharacter.subclass"><strong>Subclass:</strong> {{ getCharacter.subclass }}</p>
-                        <p v-html="selectedClassTable"></p>
+                        <div id="class-info">
+                            <h3>Class Information</h3>
+                            <p><strong>Class:</strong> {{ getCharacter.class }}</p>
+                            <p v-if="getCharacter.subclass"><strong>Subclass:</strong> {{ getCharacter.subclass }}</p>
+                            <p v-html="selectedClassTable"></p>
+                        </div>
                     </div>
                     <!-- Add more class info here if needed -->
                 </div>
                 <div class="col">
                     <div class="details">
-                       <h3>Species Information</h3>
-                        <p><strong>Species:</strong> {{ getCharacter.species }}</p> 
-                        <h4>Traits (main species) </h4>
-                        <div v-if="species">
-                            <div  v-for="item in selectedSpeciesTraits" :key="item.name">
-                            <strong>{{ item.name }}:</strong> 
-                            <p v-html="item.desc"></p>
-                            </div>
-                        </div>
-                        <h4>Additional traits:</h4>
-                        <div v-if="subracesByRace">
-                            <div  v-for="item in selectedSubSpeciesTraits" :key="item.name">
-                            <div v-if="item.name != 'Age'|| 'Speed' || 'Size'">
-                                <strong >{{ item.name }}</strong> 
-                                <p v-html="item.desc"></p>
-                            </div>
-                            
-                            </div>
-                        </div>
+                        <h3>Species Information</h3>
                         
+                        <div id="species-info">
+                            <p><strong>Species:</strong> {{ getCharacter.species }}</p>
+                            <div v-if="selectedSpeciesData">
+                                <p v-html="selectedSpeciesData.desc"></p>
+                            </div>
+                            <h4>Traits (main species) </h4>
+                            <div v-if="species">
+                                <div v-for="item in selectedSpeciesTraits" :key="item.name">
+                                    <strong>{{ item.name }}:</strong>
+                                    <p v-html="item.desc"></p>
+                                </div>
+                            </div>
+                            <h4>Additional traits:</h4>
+                            <div v-if="subracesByRace">
+                                <div v-for="item in selectedSubSpeciesTraits" :key="item.name">
+                                    <div v-if="item.name != 'Age' || 'Speed' || 'Size'">
+                                        <strong>{{ item.name }}</strong>
+                                        <p v-html="item.desc"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
-                    
-                    <!-- Add more species info here if needed -->
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 <script>
-import { fetch5eToolsData, Endpoints } from '../5eToolsFetch.js';                
+import { fetch5eToolsData, Endpoints } from '../5eToolsFetch.js';
 import { auth } from '../main.js' // Adjust path if needed
 import { onAuthStateChanged } from 'firebase/auth'
 import { markdown } from '../main.js'; // Import the markdown instance
 
 
 export default {
-  name: 'CharacterBuilderComponent',
-  data() {
-    return {
-      classes: null,
-      species: null,
-      races: null,
-      subraces: null,
-      subracesByRace: null,
-      selectedClass: null,
-      selectedRace: null,
-      selectedSubClass: null,
-      selectedSubRace: null,
-      character: {
-        userId: null, // This will hold the user's email or ID
-        name: '',
-        class: '',
-        subclass: '',
-        species: '',
-        subrace: '',
-        background: '',
-        feats: [],
-        skills: [],
-        level: 1,
+    name: 'CharacterBuilderComponent',
+    data() {
+        return {
+            //display options
+            showClass: true,
+            showSpecies: true,
+            //Data retrieved from 5eTools API
+            classes: null,
+            species: null,
+            races: null,
+            subraces: null,
+            subracesByRace: null,
+            // Selected options
+            selectedClass: null,
+            selectedRace: null,
+            selectedSubClass: null,
+            selectedSubRace: null,
+            //character object
+            character: {
+                userId: null, // This will hold the user's email or ID
+                name: '',
+                class: '',
+                subclass: '',
+                species: '',
+                subrace: '',
+                background: '',
+                feats: [],
+                skills: [],
+                level: 1,
             },
         }
     },
@@ -155,13 +163,13 @@ export default {
             return this.character
         },
         getSpeciesData() {
-         if (!this.selectedRace || !this.species) return null;
+            if (!this.selectedRace || !this.species) return null;
             return this.species.find(item => item.name === this.selectedRace);
         },
         selectedClassData() {
             if (!this.selectedClass || !this.classes) return null;
             return this.classes.find(item => item.name === this.selectedClass);
-            
+
         },
         selectedSpeciesData() {
             if (!this.selectedRace || !this.species) return null;
@@ -171,7 +179,7 @@ export default {
             if (!this.selectedSubRace || !this.subracesByRace) return null;
             return this.subraces.find(item => item.name === this.selectedSubRace);
         },
-        
+
         selectedClassTable() {
             if (!this.selectedClassData) return '';
             return this.selectedClassData.table ? markdown.render(this.selectedClassData.table) : '';
@@ -188,16 +196,16 @@ export default {
         },
         selectedSubSpeciesTraits() {
             if (!this.selectedSubSpeciesData) return [];
-            let traits = this.selectedSpeciesData.traits.map(trait => {
-                if (trait.name === 'Age' || 
-                trait.name === 'Speed' ||
-                 trait.name === 'Size' ||
-                  trait.name === 'Languages' ||
-                   trait.name === 'Ability Score Increase' ||
+            let traits = this.selectedSubSpeciesData.traits.map(trait => {
+                if (trait.name === 'Age' ||
+                    //trait.name === 'Speed' ||
+                    trait.name === 'Size' ||
+                    //trait.name === 'Languages' ||
+                    //trait.name === 'Ability Score Increase' ||
                     trait.name === 'Darkvision' ||
-                     trait.name === 'Alignment') {
+                    trait.name === 'Alignment') {
                     return {
-                        name:'',
+                        name: '',
                         desc: '',
                     }; // Skip these traits
                 }
@@ -210,75 +218,74 @@ export default {
         }
     },
     watch: {
-      selectedClass() {
-        this.character.class = this.selectedClass;
+        selectedClass() {
+            this.character.class = this.selectedClass;
 
-      },
-      selectedRace() {
-        this.character.species = this.selectedRace;
-        this.subracesByRace = this.subspecies();
-      },
-      selectedSubClass(newSubClass) {
-        if (this.selectedClass) {
-            this.character.subclass = newSubClass;
+        },
+        selectedRace() {
+            this.character.species = this.selectedRace;
+            this.subracesByRace = this.subspecies();
+        },
+        selectedSubClass(newSubClass) {
+            if (this.selectedClass) {
+                this.character.subclass = newSubClass;
             } else {
-            console.warn("No class selected to assign subclass.");
-        }
-        this.character.subclass = newSubClass;
-      },
-      
-    },
-     methods: {
-    subspecies() {
-            let sub_races = [];
-            
-            for (let sub_species of this.subraces) { 
-                console.log("selected species: ", this.getSpeciesData);
-                console.log("is same link: ", this.getSpeciesData.url == sub_species.subrace_of);
-                console.log("is link 1 ", this.selectedRace.url);
-                console.log("is link 2 ", sub_species.subrace_of);
-
-
-            if (this.getSpeciesData.url === sub_species.subrace_of) {
-                sub_races.push(sub_species);
-                console.log("Subrace found: ", sub_species.name);
+                console.warn("No class selected to assign subclass.");
             }
-            
+            this.character.subclass = newSubClass;
+        },
+
+    },
+    methods: {
+        subspecies() {
+            let sub_races = [];
+
+            for (let sub_species of this.subraces) {
+                if (this.getSpeciesData.url === sub_species.subrace_of) {
+                    sub_races.push(sub_species);
+                }
+
             }
             console.log("current subraces ", sub_races);
             return sub_races || [];
         },
-  },
-    async mounted() {
-      onAuthStateChanged(auth, user => {
-        if (user) {
-          this.character.userId = user.email; // Example: use email as character name
-        } else {
-          this.$router.push('/login'); // Redirect to login if not authenticated
+        toggleSpecies() {
+            this.showSpecies = !this.showSpecies;
+        },
+        toggleClass() {
+            this.showClass = !this.showClass;
         }
-      });
-      try {
-        const response = await fetch5eToolsData(Endpoints.CLASSES);
-        const data = response;
-        if (data.results.length > 0) {
-        this.selectedClass = data.results[0].name; // Default to first class
-      }
-        this.classes = data.results;
-      } catch (error) {
-        console.error("Error fetching classes:", error);
-      }
-      try {
-      const raceResponse = await fetch5eToolsData(Endpoints.RACES);
-      const allRaces = raceResponse.results;
-      this.species = allRaces.filter(r => !r.is_subrace);
-      this.subraces = allRaces.filter(r => r.is_subrace);
-      if (this.species.length > 0) {
-        this.selectedRace = this.species[0].name;
-      }
-    } catch (error) {
-      console.error("Error fetching races:", error);
-    }
-      
+    },
+    async mounted() {
+        onAuthStateChanged(auth, user => {
+            if (user) {
+                this.character.userId = user.email; // Example: use email as character name
+            } else {
+                this.$router.push('/login'); // Redirect to login if not authenticated
+            }
+        });
+        try {
+            const response = await fetch5eToolsData(Endpoints.CLASSES);
+            const data = response;
+            if (data.results.length > 0) {
+                this.selectedClass = data.results[0].name; // Default to first class
+            }
+            this.classes = data.results;
+        } catch (error) {
+            console.error("Error fetching classes:", error);
+        }
+        try {
+            const raceResponse = await fetch5eToolsData(Endpoints.RACES);
+            const allRaces = raceResponse.results;
+            this.species = allRaces.filter(r => !r.is_subrace);
+            this.subraces = allRaces.filter(r => r.is_subrace);
+            if (this.species.length > 0) {
+                this.selectedRace = this.species[0].name;
+            }
+        } catch (error) {
+            console.error("Error fetching races:", error);
+        }
+
     },
 }
 </script>
@@ -286,14 +293,16 @@ export default {
 .row-left {
     display: flex;
     flex-direction: row;
-  float: left;
-  width: 100%;
+    float: left;
+    width: 100%;
 }
+
 .form-row {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 .details {
     background-color: #f0f0f0;
     padding: 10px;
@@ -301,38 +310,46 @@ export default {
     margin: 20px;
     width: 80%;
 }
+
 .row-center {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
+
 .col-center {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
-.form-row input, .form-row select {
-    margin: 10px;   
+
+.form-row input,
+.form-row select {
+    margin: 10px;
 }
+
 .configure {
-  max-width: 600px;
-  height: 100vh;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  
+    max-width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+
 }
+
 .general-info {
     margin-bottom: 20px;
 
 }
+
 .row-two-cols {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
+
 .col {
     flex: 1;
     margin: 0 10px;
