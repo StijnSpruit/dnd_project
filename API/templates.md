@@ -24,7 +24,8 @@ example:
             ]
         }],
 "subspecies": [{
-    "name":"","subspecies_of":""
+    "name":"",
+    "subspecies_of":""
     "desc":"",
     "traits": [{
          "name":"",
