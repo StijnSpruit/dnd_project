@@ -21,20 +21,16 @@ example:
                     "name": "",
                     "desc": ""
                 }
-            ],
-            "subspecies": [
-                {
-                    "name":"",
-                    "desc":"",
-                    "traits": [
-                        {
-                            "name":"",
-                            "desc":""
-                        }
-                    ]
-                }
             ]
-        }]
+        }],
+"subspecies": [{
+    "name":"","subspecies_of":""
+    "desc":"",
+    "traits": [{
+         "name":"",
+         "desc":""
+            }]
+    }]
 }
 
 ```
