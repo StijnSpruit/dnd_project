@@ -13,6 +13,30 @@
                 {
                     "name": "Celestial Resistance",
                     "desc": "You have resistance to necrotic damage and radiant damage."
+                },
+                {
+                    "name": "Healing hands",
+                    "desc": "As a Magic action, you touch a creature and roll a number of d4s equal to your Proficiency Bonus. The creature regains a number of Hit Points equal to the total rolled. Once you use this trait, you can't use it again until you finish a Long Rest."
+                },
+                {
+                    "name": "Light bearer",
+                    "desc": "You know the Light cantrip. Charisma is your spellcasting ability for it."
+                },
+                {
+                    "name": "Celestial Revelation.",
+                    "desc": "When you reach character level 3, you can transform as a Bonus Action using one of the options below (choose the option each time you transform). The transformation lasts for 1 minute or until you end it (no action required). Once you transform, you can't do so again until you finish a Long Rest. \n Once on each of your turns before the transformation ends, you can deal extra damage to one target when you deal damage to it with an attack or a spell. \n The extra damage equals your Proficiency Bonus, and the extra damage's type is either Necrotic for Necrotic Shroud or Radiant for Heavenly Wings and Inner Radiance.Here are the transformation options: \n <strong>Heavenly Wings</strong>. Two spectral wings sprout from your back temporarily. Until the transformation ends, you have a Fly Speed equal to your Speed. \n <strong>Inner Radiance</strong>. Searing light temporarily radiates from your eyes and mouth. For the duration, you shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes Radiant damage equal to your Proficiency Bonus. \n<strong>Necrotic Shroud.</strong> Your eyes briefly become pools of darkness, and flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you must succeed on a Charisma saving throw (DC 8 plus your Charisma modifier and Proficiency Bonus) or have the Frightened condition until the end of your next turn."
+                }
+            ],
+            "subspecies": [
+                {
+                    "name":"",
+                    "desc":"",
+                    "traits": [
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ]
                 }
             ]
         },
@@ -24,11 +48,35 @@
             "traits": [
                 {
                     "name": "Draconic Ancestry",
-                    "desc": "You have a draconic ancestry that determines your damage resistance and breath weapon."
+                    "desc": "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.<table><tr><th>Dragon</th><th>Damage type</th></tr><tr><td>Black</td><td>Acid</td></tr><tr><td>Blue</td><td>Lightning</td></tr><tr><td>Brass</td><td>Fire</td></tr><tr><td>Bronze</td><td>Lightning</td></tr><tr><td>Copper</td><td>Acid</td></tr><tr><td>Gold</td><td>Fire</td></tr><tr><td>Green</td><td>Poison</td></tr><tr><td>Red</td><td>Fire</td></tr><tr><td>Silver</td><td>Cold</td></tr><tr><td>White</td><td>Cold</td></tr></table>"
                 },
                 {
                     "name": "Breath Weapon",
                     "desc": "You can use your action to exhale destructive energy. The type of damage depends on your draconic ancestry."
+                },  
+                {
+                    "name":"Damage resistance",
+                    "desc":"You have Resistance to the damage type determined by your Draconic Ancestry trait."
+                },
+                {
+                    "name":"Darkvision",
+                    "desc":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                },
+                {
+                    "name":"Draconic Flight",
+                    "desc":"When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest."
+                }
+            ],
+            "subspecies": [
+                {
+                    "name":"",
+                    "desc":"",
+                    "traits": [
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ]
                 }
             ]
         },
@@ -40,11 +88,31 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    "desc": "You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
                 },
                 {
                     "name": "Dwarven Resilience",
-                    "desc": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+                    "desc": "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition."
+                },
+                {
+                    "name":"Dwarven Toughness",
+                    "desc":"Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level."
+                }, 
+                {
+                    "name":"Stonecunning",
+                    "desc":"As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+                }
+            ],
+            "subspecies": [
+                {
+                    "name":"",
+                    "desc":"",
+                    "traits": [
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ]
                 }
             ]
         },
@@ -78,6 +146,18 @@
                     "name": "Gnome Cunning",
                     "desc": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
                 }
+            ],
+            "subspecies": [
+                {
+                    "name":"",
+                    "desc":"",
+                    "traits": [
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -93,6 +173,18 @@
                 {
                     "name": "Skill Versatility",
                     "desc": "You gain proficiency in two skills of your choice."
+                }
+            ],
+            "subspecies": [
+                {
+                    "name":"",
+                    "desc":"",
+                    "traits": [
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ]
                 }
             ]
         },
@@ -110,6 +202,18 @@
                     "name": "Brave",
                     "desc": "You have advantage on saving throws against being frightened."
                 }
+            ],
+            "subspecies": [
+                {
+                    "name":"",
+                    "desc":"",
+                    "traits": [
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -121,6 +225,18 @@
                 {
                     "name": "",
                     "desc": ""
+                }
+            ],
+            "subspecies": [
+                {
+                    "name":"",
+                    "desc":"",
+                    "traits": [
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ]
                 }
             ]
         },
@@ -135,8 +251,24 @@
                     "desc": "You can take the dash action as a bonus action on your turn. When you do so, you gain a number of temporary hit points equal to your proficiency bonus. You regain all expended uses after a short rest or long rest."
                 },
                 {
-                    "name": "Powerful Build",
-                    "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                    "name": "Relentless Endurance",
+                    "desc": "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+                },
+                {
+                    "name": "Darkvision",
+                    "desc": "You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                }
+            ],
+            "subspecies": [
+                {
+                    "name":"",
+                    "desc":"",
+                    "traits": [
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ]
                 }
             ]
         },
@@ -153,6 +285,18 @@
                 {
                     "name": "Hellish Resistance",
                     "desc": "You have resistance to fire damage."
+                }
+            ],
+            "subspecies": [
+                {
+                    "name":"",
+                    "desc":"",
+                    "traits": [
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ]
                 }
             ]
         }
