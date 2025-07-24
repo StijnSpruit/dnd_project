@@ -2,12 +2,19 @@
 
 in index we have our books json. replace book name with the shortname of the book you're working on, give the full name as "name". url to d&d beyond book, link the content to your content json file adn give the shortname (will be in url)
 ```js
-const book_name = require('path/to/json')
+const book_name = {
+    species: require('./json/phb24/phb_24_species.json').species,
+    subspecies: require('./json/phb24/phb_24_species.json').subspecies,
+    classes: require('./json/phb24/phb_24_classes.json').classes
+};
+const BOOKS = [
 { name: "book_name", url: "https://www.dndbeyond.com/sources/ai", content: book_name, shortname: "ai" }
+]
+
 
 ```
 ### content json
-in the json directory, add book_name.json (again, replace book_name with shortname). since we already have the book info in index.js, you only need the content here<br/>
+in the json directory, add book_name_category.json (again, replace book_name with shortname and replace the category with something like species.)<br/>
 example: 
 ```json
 {
@@ -35,6 +42,8 @@ example:
             }]
     }]
 }
+```
+```json
 "classes": [
         {
             "name":"Barbarian",
