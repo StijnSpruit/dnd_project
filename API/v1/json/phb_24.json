@@ -2,6 +2,7 @@
     "species": [
         {
             "name": "Aasimar",
+            "identifier":"aasimar",
             "creature_type": "Humanoid",
             "size": "Small / Medium",
             "speed": 30,
@@ -30,6 +31,7 @@
         },
         {
             "name": "Dragonborn",
+            "identifier":"dragonborn",
             "creature_type": "Humanoid",
             "size": "Medium",
             "speed": 30,
@@ -58,6 +60,7 @@
         },
         {
             "name": "Dwarf",
+            "identifier":"dwarf",
             "creature_type": "Humanoid",
             "size": "Medium",
             "speed": 25,
@@ -82,6 +85,7 @@
         },
         {
             "name": "Elf",
+            "identifier":"elf",
             "creature_type": "Humanoid",
             "size": "Medium",
             "speed": 30,
@@ -110,6 +114,7 @@
         },
         {
             "name": "Gnome",
+            "identifier":"gnome",
             "creature_type": "Humanoid",
             "size": "Small",
             "speed": 25,
@@ -130,6 +135,7 @@
         },
         {
             "name": "Goliath",
+            "identifier":"goliath",
             "creature_type": "Humanoid",
             "size": "Medium",
             "speed": 35,
@@ -150,6 +156,7 @@
         },
         {
             "name": "Halfling",
+            "identifier":"halfling",
             "creature_type": "Humanoid",
             "size": "Small",
             "speed": 30,
@@ -170,6 +177,7 @@
         },
         {
             "name": "Human",
+            "identifier":"human",
             "creature_type": "Humanoid",
             "size": "Medium / Small",
             "speed": 30,
@@ -190,6 +198,7 @@
         },
         {
             "name": "Orc",
+            "identifier":"orc",
             "creature_type": "Humanoid",
             "size": "Medium",
             "speed": 30,
@@ -210,6 +219,7 @@
         },
         {
             "name": "Tiefling",
+            "identifier":"tiefling",
             "creature_type": "Humanoid",
             "size": "Medium",
             "speed": 30,
@@ -232,6 +242,7 @@
     "subspecies": [
         {
             "name": "Drow",
+            "identifier":"drow_elf",
             "subspecies_of": "Elf",
             "desc": "You are part of the Elven Lineage that grants you supernatural abilities.",
             "traits": [
@@ -251,6 +262,7 @@
         },
         {
             "name": "High Elf",
+            "identifier":"high_elf",
             "subspecies_of": "Elf",
             "desc": "You are part of the Elven Lineage that grants you supernatural abilities.",
             "traits": [
@@ -270,6 +282,7 @@
         },
         {
             "name": "Wood Elf",
+            "identifier":"wood_elf",
             "subspecies_of": "Elf",
             "desc": "You are part of the Elven Lineage that grants you supernatural abilities.",
             "traits": [
@@ -289,6 +302,7 @@
         },
         {
             "name": "Forest Gnome",
+            "identifier":"forest_gnome",
             "subspecies_of": "Gnome",
             "desc": "You are part of the Gnome Lineage that grants you supernatural abilities.",
             "traits": [
@@ -304,6 +318,7 @@
         },
         {
             "name": "Rock Gnome",
+            "identifier":"rock_gnome",
             "subspecies_of": "Gnome",
             "desc": "You are part of the Gnome Lineage that grants you supernatural abilities.",
             "traits": [
@@ -315,6 +330,7 @@
         },
         {
             "name": "Cloud Giant",
+            "identifier":"cloud_giant",
             "subspecies_of": "Goliath",
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
@@ -326,6 +342,7 @@
         },
         {
             "name": "Fire Giant",
+            "identifier":"fire_giant",
             "subspecies_of": "Goliath",
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
@@ -337,6 +354,7 @@
         },
         {
             "name": "Frost Giant",
+            "identifier":"frost_giant",
             "subspecies_of": "Goliath",
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
@@ -348,6 +366,7 @@
         },
         {
             "name": "Hill Giant",
+            "identifier":"hill_giant",
             "subspecies_of": "Goliath",
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
@@ -359,6 +378,7 @@
         },
         {
             "name": "Stone Giant",
+            "identifier":"stone_giant",
             "subspecies_of": "Goliath",
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
@@ -370,6 +390,7 @@
         },
         {
             "name": "Storm Giant",
+            "identifier":"storm_giant",
             "subspecies_of": "Goliath",
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
@@ -381,6 +402,7 @@
         },
         {
             "name": "Abyssal",
+            "identifier":"abyssal_tiefling",
             "subspecies_of": "Tiefling",
             "desc": "You are part of a Legacy that grants you supernatural abilities.",
             "traits": [
@@ -400,6 +422,7 @@
         },
         {
             "name": "Chthonic",
+            "identifier":"chthonic_tiefling",
             "subspecies_of": "Tiefling",
             "desc": "You are part of a Legacy that grants you supernatural abilities.",
             "traits": [
@@ -419,6 +442,7 @@
         },
         {
             "name": "Inferno",
+            "identifier":"inferno_tiefling",
             "subspecies_of": "Tiefling",
             "desc": "You are part of a Legacy that grants you supernatural abilities.",
             "traits": [

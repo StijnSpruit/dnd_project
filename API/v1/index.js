@@ -48,13 +48,15 @@ const BOOKS = [
     { name: "Waterdeep: Dungeon of the Mad Mage", url: "https://www.dndbeyond.com/sources/dotmm", content: {}, shortname: "dotmm" },
     { name: "Xanathar's Guide to Everything", url: "https://www.dndbeyond.com/sources/xgte", content: {}, shortname: "xgte" }
 ];
+//get all books
 app.get('/api/books', (req, res) => {
     res.json(BOOKS);
 });
-app.param('name', (req, res, next, name) => {
-  console.log('CALLED ONLY ONCE', name)
-  next()
-})
+//get specific book
+// app.param('name', (req, res, next, name) => {
+//   console.log('CALLED ONLY ONCE', name)
+//   next()
+// })
 app.get('/api/books/:name', (req, res) => {
     const bookName = req.params.name;
     console.log(bookName)
@@ -63,6 +65,39 @@ app.get('/api/books/:name', (req, res) => {
         res.json(book);
     } else {
         res.status(404).send('Book not found');
+    }
+});
+
+// app.param('content', (req, res, next, name) => {
+//     next()
+// })
+
+app.get('/api/books/:name/:content', (req, res) => {
+    const bookShortname = req.params.name;
+    const contentKey = req.params.content;
+    const book = BOOKS.find(b => b.shortname == bookShortname);
+    if (book && book.content && Object.prototype.hasOwnProperty.call(book.content, contentKey)) {
+        res.json(book.content[contentKey]);
+    } else {
+        res.status(404).send('Content not found');
+    }
+});
+
+app.get('/api/books/:name/:content/:identifier', (req, res) => {
+    const { name: bookShortname, content: contentKey, identifier } = req.params;
+    const book = BOOKS.find(b => b.shortname == bookShortname);
+    if (book && book.content && Array.isArray(book.content[contentKey])) {
+        // Case-insensitive match for identifier
+        const item = book.content[contentKey].find(
+            entry => entry.identifier && entry.identifier.toLowerCase() === identifier.toLowerCase()
+        );
+        if (item) {
+            res.json(item);
+        } else {
+            res.status(404).send('Item not found');
+        }
+    } else {
+        res.status(404).send('Content not found');
     }
 });
 
