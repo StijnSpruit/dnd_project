@@ -1,6 +1,6 @@
 # BOOK TEMPLATES
 
-in index we have our books json. replace book name with the shortname of the book you're working on, give the full name as "name". url to d&d beyond book, link the content to your content json file adn give the shortname (will be in url)
+in books.js we have our books json. replace book name with the shortname of the book you're working on, give the full name as "name". url to d&d beyond book, link the content to your content json file adn give the shortname (will be in url)
 ```js
 const book_name = {
     species: require('./json/phb24/phb_24_species.json').species,
