@@ -171,7 +171,7 @@
     "class_specific": [
      {
       "name": "Rages",
-      "value": "2"
+      "value": "3"
      },
      {
       "name": "Rage Damage",
@@ -182,7 +182,281 @@
       "value": "3"
      }
     ]
-   }
+   },
+   {
+    "level": "6th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Subclass feature",
+      "desc": "You gain a feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "4"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+2"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "3"
+     }
+    ]
+   },
+   {
+    "level": "7th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Feral Instinct",
+      "desc": "You can roll with advantage on Initiative rolls",
+      "feature_data": []
+     },
+     {
+      "name": "Instinct Pounce",
+      "desc": "As part of the Rage-extending bonus action you can move half your speed when doing this (so you can walk extra)",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "4"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+2"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "3"
+     }
+    ]
+   },
+   {
+    "level": "8th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "4"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+2"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "3"
+     }
+    ]
+   },
+   {
+    "level": "9th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Brutal Strike",
+      "desc": "If you use Reckless Attack, you can forgo any Advantage on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have Disadvantage. If the chosen attack roll hits, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.",
+      "feature_data": [
+       {
+        "name": "Forceful Blow",
+        "desc": "The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attacks."
+       },
+       {
+        "name": "Hamstring Blow",
+        "desc": "The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one."
+       }
+      ]
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "4"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+3"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
+   {
+    "level": "10th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Subclass feature",
+      "desc": "You gain a feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "4"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+3"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
+   {
+    "level": "11th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Relentless Rage",
+      "desc": "If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed your hitpoints will equal double of your barbarian level.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "4"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+3"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
+   {
+    "level": "12th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "5"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+3"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
+   {
+    "level": "13th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Improved Brutal Strike",
+      "desc": "You gain new ways to attack. You gain the following Brutal Strike options:",
+      "feature_data": [
+       {
+        "name":"staggering blow",
+        "desc":"The target will have disadvantage on their next saving throw and are unable to make an Opportunity attack"
+       },
+       {
+        "name":"sundering blow",
+        "desc":"Before your next turn, the next attack roll made by another creature against the target has a +5 bonus."
+       }
+      ]
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "5"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+3"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
+   {
+    "level": "14th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Subclass feature",
+      "desc": "You gain a feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "5"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+3"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
+   {
+    "level": "15th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Persistent Rage",
+      "desc": "When rolling for initiative",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "5"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+3"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
+   
   ]
  }
 }
