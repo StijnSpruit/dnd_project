@@ -5,7 +5,12 @@ in books.js we have our books json. replace book name with the shortname of the 
 const book_name = {
     species: require('./json/phb24/phb_24_species.json').species,
     subspecies: require('./json/phb24/phb_24_species.json').subspecies,
-    classes: require('./json/phb24/phb_24_classes.json').classes
+    classes: {
+        barbarian: require('./json/phb24/classes/phb_24_barbarian.json').classes
+    }
+    subclasses: {
+        barbarian: require('./json/phb24/classes/phb_24_barbarian.json').subclasses
+    }
 };
 const BOOKS = [
 { name: "book_name", url: "https://www.dndbeyond.com/sources/ai", content: book_name, shortname: "ai" }
@@ -43,6 +48,7 @@ example:
     }]
 }
 ```
+json/phb24/classes/phb_24_barbarian.json:
 ```json
 "classes": [
         {
