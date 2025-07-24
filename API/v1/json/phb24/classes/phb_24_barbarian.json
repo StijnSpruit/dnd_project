@@ -436,8 +436,8 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "Ability score improvement",
-      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "name": "Persistent Rage",
+      "desc": "When you roll for initiative, you gain all expended rage slots. can be used once a long rest",
       "feature_data": []
      }
     ],
@@ -456,7 +456,56 @@
      }
     ]
    },
-   
+      {
+    "level": "16th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Improved Brutal Strike",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "5"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+4"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
+      {
+    "level": "17th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "You can now make brutal strikes wit 2 effects. it deals 2d10",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "6"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+4"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
   ]
  }
 }
