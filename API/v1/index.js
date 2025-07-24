@@ -9,7 +9,12 @@ app.use(cors());
 const phb24 = {
     species: require('./json/phb24/phb_24_species.json').species,
     subspecies: require('./json/phb24/phb_24_species.json').subspecies,
-    classes: require('./json/phb24/phb_24_classes.json')
+    classes: [
+        {
+            identifier: "barbarian",
+            content: require('./json/phb24/classes/phb_24_barbarian.json').class
+        } 
+    ]
 };
 
 const BOOKS = [
@@ -96,7 +101,7 @@ app.get('/api/books/:name/:content/:identifier', (req, res) => {
             entry => entry.identifier && entry.identifier.toLowerCase() === identifier.toLowerCase()
         );
         if (item) {
-            res.json(item);
+            res.json(item.content);
         } else {
             res.status(404).send('Item not found');
         }

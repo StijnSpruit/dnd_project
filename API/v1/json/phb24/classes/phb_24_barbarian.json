@@ -1,0 +1,188 @@
+{
+ "class": {
+  "name": "Barbarian",
+  "identifier": "barbarian",
+  "desc": "rage and shit",
+  "hit_die": "d12",
+  "lvl_1_hitpoint": "12 + CON modifier",
+  "hitpoint_per_level": "1d12 + CON modifier or 7 + CON modifier",
+  "saving_throw_prof": "STR and CON",
+  "levels": [
+   {
+    "level": "1st",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Rage",
+      "desc": "Using a bonus action, you can enter Rage. Rage is a primal power that makes you powerful",
+      "feature_data": [
+       {
+        "name": "Damage Resistance",
+        "desc": "You're resistant to the following damage types: Bludgeoning, Piercing and Slashing"
+       },
+       {
+        "name": "Rage Damage",
+        "desc": "When dealing damage with a Strength attack (using a weapon or an unarmed strike) you deal extra damage equal to the 'Rage Damage' property of your character's level"
+       },
+       {
+        "name": "Strength",
+        "desc": "You can roll with advantage on Strength checks and saving throws"
+       },
+       {
+        "name": "Damage Resistance",
+        "desc": "You're resistant to the following damage types: Bludgeoning, Piercing and Slashing"
+       },
+       {
+        "name": "Concentration",
+        "desc": "You're unable to concentrate or cast spells."
+       },
+       {
+        "name": "Duration",
+        "desc": "Rage stays active until the end of your next turn or until you get incapacitated. you can extend your rage period by: making an attack roll against an enemy, forcing the enemy to make a saving throw or by taking a bonus action to extend the rage period"
+       }
+      ]
+     },
+     {
+      "name": "Unarmored Defense",
+      "desc": "While Unarmored, your base AC is 10 + DEX modifier + CON modifier",
+      "feature_data": []
+     },
+     {
+      "name": "Weapon Mastery",
+      "desc": "You are proficient with 2 weapon types of your choice. This grants you mastery properties of those weapons. Once per long rest you can train to change your chosen weapons.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "2"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+2"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "2"
+     }
+    ]
+   },
+   {
+    "level": "2nd",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Danger Sense",
+      "desc": "you get an uncomfortable feeling when you think things arent right. When dodging things you can roll with advantage on DEX saving throws, unless you're incapacitated",
+      "feature_data": []
+     },
+     {
+      "name": "Reckless Attack",
+      "desc": "Don't think about defense for a bit and just attack. This gives you advantage on attack rolls, but also grants advantage for your enemies",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "2"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+2"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "2"
+     }
+    ]
+   },
+   {
+    "level": "3rd",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Barbarian Subclass",
+      "desc": "Gain a subclass for your barbarian character",
+      "feature_data": []
+     },
+     {
+      "name": "Primal knowledge",
+      "desc": "you get proficient in another skill from the skill list available for level 1 barbarians",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "3"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+2"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "2"
+     }
+    ]
+   },
+   {
+    "level": "4th",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "3"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+2"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "3"
+     }
+    ]
+   },
+   {
+    "level": "5th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "fast movement",
+      "desc": "While not in heavy armor, your speed increases by 10ft",
+      "feature_data": []
+     },
+     {
+      "name": "Extra Attack",
+      "desc": "You can do an extra attack on your turn",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "2"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+2"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "3"
+     }
+    ]
+   }
+  ]
+ }
+}
