@@ -60,13 +60,23 @@ example:
                     "features": [
                         {
                             "name":"Rage",
-                            "desc":"Using a bonus action, you can enter Rage. Rage is a primal power that makes you powerful"
+                            "desc": "Using a bonus action, you can enter Rage. Rage is a primal power that makes you powerful",
+                            "feature_data": [
+                                {
+                                 "name":"",
+                                 "desc":""
+                                }
+                               ]
                         },
                         {
-                            "name":"Unarmored Defense"
+                            "name":"Unarmored Defense",
+                            "desc":"",
+                            "feature_data": []
                         },
                         {
-                            "name":"Weapon Mastery"
+                            "name":"Weapon Mastery",
+                            "desc":"",
+                            "feature_data": []
                         }
                     ],
                     "class_specific": [
