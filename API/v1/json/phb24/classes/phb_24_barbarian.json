@@ -436,8 +436,8 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "Persistent Rage",
-      "desc": "When rolling for initiative",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
