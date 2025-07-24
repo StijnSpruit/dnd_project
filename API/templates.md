@@ -7,7 +7,7 @@ const book_name = {
     subspecies: require('./json/phb24/phb_24_species.json').subspecies,
     classes: {
         barbarian: require('./json/phb24/classes/phb_24_barbarian.json').classes
-    }
+    },
     subclasses: {
         barbarian: require('./json/phb24/classes/phb_24_barbarian.json').subclasses
     }
