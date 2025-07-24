@@ -13,6 +13,7 @@ example:
 {
 "species": [{
             "name": "Aasimar",
+            "identifier":"snake_case_lowercase_name",
             "creature_type": "Humanoid",
             "size": "Small / Medium",
             "speed": 30,
@@ -25,6 +26,7 @@ example:
         }],
 "subspecies": [{
     "name":"",
+    "identifier":"snake_case_lowercase_name",
     "subspecies_of":""
     "desc":"",
     "traits": [{
