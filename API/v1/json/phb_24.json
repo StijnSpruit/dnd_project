@@ -8,23 +8,23 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    "desc": "You are able to see clearly in dim light up to 60 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
                     "name": "Celestial Resistance",
-                    "desc": "You have resistance to necrotic damage and radiant damage."
+                    "desc": "You are naturally resistant to both necrotic and radiant types of damage."
                 },
                 {
                     "name": "Healing hands",
-                    "desc": "As a Magic action, you touch a creature and roll a number of d4s equal to your Proficiency Bonus. The creature regains a number of Hit Points equal to the total rolled. Once you use this trait, you can't use it again until you finish a Long Rest."
+                    "desc": "By using a Magic action, you can touch a creature and roll a number of d4's equal to your Proficiency Bonus. The creature regains hit points equal to the total rolled. This ability can be used once per Long Rest."
                 },
                 {
                     "name": "Light bearer",
-                    "desc": "You know the Light cantrip. Charisma is your spellcasting ability for it."
+                    "desc": "You know the Light cantrip, and you use Charisma as your spellcasting ability for it."
                 },
                 {
                     "name": "Celestial Revelation.",
-                    "desc": "When you reach character level 3, you can transform as a Bonus Action using one of the options below (choose the option each time you transform). The transformation lasts for 1 minute or until you end it (no action required). Once you transform, you can't do so again until you finish a Long Rest. \n Once on each of your turns before the transformation ends, you can deal extra damage to one target when you deal damage to it with an attack or a spell. \n The extra damage equals your Proficiency Bonus, and the extra damage's type is either Necrotic for Necrotic Shroud or Radiant for Heavenly Wings and Inner Radiance.Here are the transformation options: \n <strong>Heavenly Wings</strong>. Two spectral wings sprout from your back temporarily. Until the transformation ends, you have a Fly Speed equal to your Speed. \n <strong>Inner Radiance</strong>. Searing light temporarily radiates from your eyes and mouth. For the duration, you shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes Radiant damage equal to your Proficiency Bonus. \n<strong>Necrotic Shroud.</strong> Your eyes briefly become pools of darkness, and flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you must succeed on a Charisma saving throw (DC 8 plus your Charisma modifier and Proficiency Bonus) or have the Frightened condition until the end of your next turn."
+                    "desc": "Starting at 3rd level, you can use a Bonus Action to transform, choosing one of the following options each time. The transformation lasts for 1 minute or until you end it. Once used, you must finish a Long Rest before using it again. During the transformation, you can deal extra damage equal to your Proficiency Bonus once per turn, with the type depending on the option chosen. <strong>Heavenly Wings: </strong>Temporary spectral wings grant you a flying speed equal to your walking speed.<strong>Inner Radiance: </strong>Brilliant light shines from your eyes and mouth, illuminating a 10-foot radius brightly and another 10 feet dimly. At the end of each turn, creatures within 10 feet take radiant damage equal to your Proficiency Bonus.<strong>Necrotic Shroud: </strong>our eyes darken and shadowy wings appear. Nearby creatures (except allies) must make a Charisma saving throw or become frightened until your next turn."
                 }
             ]
         },
@@ -36,23 +36,23 @@
             "traits": [
                 {
                     "name": "Draconic Ancestry",
-                    "desc": "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.<table><tr><th>Dragon</th><th>Damage type</th></tr><tr><td>Black</td><td>Acid</td></tr><tr><td>Blue</td><td>Lightning</td></tr><tr><td>Brass</td><td>Fire</td></tr><tr><td>Bronze</td><td>Lightning</td></tr><tr><td>Copper</td><td>Acid</td></tr><tr><td>Gold</td><td>Fire</td></tr><tr><td>Green</td><td>Poison</td></tr><tr><td>Red</td><td>Fire</td></tr><tr><td>Silver</td><td>Cold</td></tr><tr><td>White</td><td>Cold</td></tr></table>"
+                    "desc": "Your heritage traces back to a specific dragon. Select a dragon type from the Draconic Ancestors table; this choice determines your Breath Weapon, Damage Resistance, and appearance.<table><tr><th>Dragon</th><th>Damage type</th></tr><tr><td>Black</td><td>Acid</td></tr><tr><td>Blue</td><td>Lightning</td></tr><tr><td>Brass</td><td>Fire</td></tr><tr><td>Bronze</td><td>Lightning</td></tr><tr><td>Copper</td><td>Acid</td></tr><tr><td>Gold</td><td>Fire</td></tr><tr><td>Green</td><td>Poison</td></tr><tr><td>Red</td><td>Fire</td></tr><tr><td>Silver</td><td>Cold</td></tr><tr><td>White</td><td>Cold</td></tr></table>"
                 },
                 {
                     "name": "Breath Weapon",
-                    "desc": "You can use your action to exhale destructive energy. The type of damage depends on your draconic ancestry."
+                    "desc": "You can use your action to unleash a breath attack, with the damage type based on your draconic ancestry."
                 },
                 {
                     "name": "Damage resistance",
-                    "desc": "You have Resistance to the damage type determined by your Draconic Ancestry trait."
+                    "desc": "You have resistance to the damage type associated with your Draconic Ancestry."
                 },
                 {
                     "name": "Darkvision",
-                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    "desc": "You are able to see clearly in dim light up to 60 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
                     "name": "Draconic Flight",
-                    "desc": "When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest."
+                    "desc": "At 5th level, you can use a Bonus Action to sprout spectral wings, granting you a flying speed equal to your walking speed for 10 minutes or until you dismiss them or become incapacitated. The wings reflect your Breath Weapon's energy. This can be used once per Long Rest."
                 }
             ]
         },
@@ -64,19 +64,19 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    "desc": "You are able to see clearly in dim light up to 120 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
                     "name": "Dwarven Resilience",
-                    "desc": "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition."
+                    "desc": "You have resistance to poison damage and advantage on saving throws to avoid or end the poisoned condition."
                 },
                 {
                     "name": "Dwarven Toughness",
-                    "desc": "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level."
+                    "desc": "Your maximum hit points increase by 1, and increase by 1 again each time you gain a level."
                 },
                 {
                     "name": "Stonecunning",
-                    "desc": "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+                    "desc": "As a Bonus Action, you gain Tremorsense out to 60 feet for 10 minutes, provided you are on or touching stone. This can be used a number of times equal to your Proficiency Bonus per Long Rest."
                 }
             ]
         },
@@ -88,11 +88,23 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    "desc": "You are able to see clearly in dim light up to 60 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
+                },
+                {
+                    "name": "Elven Lineage",
+                    "desc":" You are part of a lineage that grants you supernatural abilities. You can choose a lineage from the following Elven Lineages: Drow, High elf or Wood elf. You gain the level 1 trait of that lineage. On levels 3 and 5, you learn a higher-level spell that you always have prepared (see subspecies for more information). Once per long rest you can cast this spell without using a spell slot. After expending that use you can cast the spell using any spell slot you have available of the right level. Your spellcasting ability for the spells in this trait is Intelligence, Wisdom, or Charisma"
+                },
+                {
+                    "name":"Keen senses",
+                    "desc":"You are proficient in one of the following skills: Insight, Perception or Survival"
+                },
+                {
+                    "name":"Trance",
+                    "desc":"You are unable to sleep. This causes sleep spells to not have effect on you at all. A long rest can be completed in 4 hours by doing a trancelike meditation. You stay concious during a long rest"
                 },
                 {
                     "name": "Fey Ancestry",
-                    "desc": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+                    "desc": "You have advantage on saving throws against being charmed"
                 }
             ]
         },
@@ -104,27 +116,35 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    "desc": "You are able to see clearly in dim light up to 60 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
                     "name": "Gnome Cunning",
                     "desc": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+                },
+                {
+                    "name":"Gnomish lineage",
+                    "desc":" You are part of a lineage that grants you supernatural abilities. You can choose a lineage from the following Gnomish Lineages: Forest Gnome or Rock Gnome (for more information, see subspecies)"
                 }
             ]
         },
         {
-            "name": "Half-Elf",
+            "name": "Goliath",
             "creature_type": "Humanoid",
             "size": "Medium",
-            "speed": 30,
+            "speed": 35,
             "traits": [
                 {
-                    "name": "Fey Ancestry",
-                    "desc": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+                    "name": "Giant Ancestry",
+                    "desc": "You are part of a Giant lineage. Choose one of the following ancestries (supernatural boon from your anchestry):  Cloud Giant, Fire Giant, Frost Giant, Hill Giant, Stone Giant, Storm Giant. You can use this benefit an amount of times equal to your characters proficiency bonus."
                 },
                 {
-                    "name": "Skill Versatility",
-                    "desc": "You gain proficiency in two skills of your choice."
+                    "name":"Large form",
+                    "desc":"When reaching level 5, you can transform to your large form (size becomes large) for 10 minutes. While in large form, your speed increases by 5ft and you have advantage on Strength checks. You can only do this once per long rest."
+                },
+                {
+                    "name": "Strong Build",
+                    "desc": "When trying to end the Grappled condition, you have advantage on any ability check you make to do so."
                 }
             ]
         },
@@ -132,27 +152,39 @@
             "name": "Halfling",
             "creature_type": "Humanoid",
             "size": "Small",
-            "speed": 25,
+            "speed": 30,
             "traits": [
                 {
-                    "name": "Lucky",
+                    "name": "Luck",
                     "desc": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
                 },
                 {
                     "name": "Brave",
                     "desc": "You have advantage on saving throws against being frightened."
+                },
+                {
+                    "name":"Naturally stealthy",
+                    "desc":"You can take the hide action, even if you're only hidden by a creature one size larger than you"
                 }
             ]
         },
         {
             "name": "Human",
             "creature_type": "Humanoid",
-            "size": "Medium",
+            "size": "Medium / Small",
             "speed": 30,
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Resourceful",
+                    "desc": "Long rests make you happy. you gain Heroic Inspiration"
+                },
+                {
+                    "name": "Skilled",
+                    "desc": "You are proficient in one skill of your choice"
+                },
+                {
+                    "name": "Versatile",
+                    "desc": "you gain one feat from the Origin feats"
                 }
             ]
         },
@@ -164,15 +196,15 @@
             "traits": [
                 {
                     "name": "Adreline rush",
-                    "desc": "You can take the dash action as a bonus action on your turn. When you do so, you gain a number of temporary hit points equal to your proficiency bonus. You regain all expended uses after a short rest or long rest."
+                    "desc": "As a bonus action, you can take the dash action on your turn. You gain a number of temporary hit points equal to your proficiency bonus. You can use this a number of times equal to your proficiency bonus and you regain expended uses after a Short Rest or Long Rest"
                 },
                 {
                     "name": "Relentless Endurance",
-                    "desc": "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+                    "desc": "When you are reduced to 0 Hit Points but haven't been fully killed, you can drop to 1 Hit Point instead. You can use this trait once per Long Rest"
                 },
                 {
                     "name": "Darkvision",
-                    "desc": "You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    "desc": "You are able to see clearly in dim light up to 120 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 }
             ]
         },
@@ -184,11 +216,15 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    "desc": "You are able to see clearly in dim light up to 60 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
-                    "name": "Hellish Resistance",
-                    "desc": "You have resistance to fire damage."
+                    "name": "Fiendish legacy",
+                    "desc": "You are part of a Legacy that grants you supernatural abilities. You can choose one of the following legacies: Abyssal, Chthonic or Inferno (see subspecies for more information)"
+                },
+                {
+                    "name": "Otherworldly precense",
+                    "desc": "You know the Thaumaturgy cantrip"
                 }
             ]
         }
@@ -197,7 +233,7 @@
         {
             "name": "Drow",
             "subspecies_of": "Elf",
-            "desc": " You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage. When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
+            "desc": "You are part of the Elven Lineage that grants you supernatural abilities.",
             "traits": [
                 {
                     "name": "",
@@ -208,7 +244,7 @@
         {
             "name": "High Elf",
             "subspecies_of": "Elf",
-            "desc": " You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage. When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
+            "desc": "You are part of the Elven Lineage that grants you supernatural abilities.",
             "traits": [
                 {
                     "name": "",
@@ -219,7 +255,128 @@
         {
             "name": "Wood Elf",
             "subspecies_of": "Elf",
-            "desc": " You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage. When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
+            "desc": "You are part of the Elven Lineage that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Forest Gnome",
+            "subspecies_of": "Gnome",
+            "desc": "You are part of the Gnome Lineage that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Rock Gnome",
+            "subspecies_of": "Gnome",
+            "desc": "You are part of the Gnome Lineage that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Cloud Giant",
+            "subspecies_of": "Goliath",
+            "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Fire Giant",
+            "subspecies_of": "Goliath",
+            "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Frost Giant",
+            "subspecies_of": "Goliath",
+            "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Hill Giant",
+            "subspecies_of": "Goliath",
+            "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Stone Giant",
+            "subspecies_of": "Goliath",
+            "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Storm Giant",
+            "subspecies_of": "Goliath",
+            "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Abyssal",
+            "subspecies_of": "Tiefling",
+            "desc": "You are part of a Legacy that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Chthonic",
+            "subspecies_of": "Tiefling",
+            "desc": "You are part of a Legacy that grants you supernatural abilities.",
+            "traits": [
+                {
+                    "name": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "name": "Abyssal",
+            "subspecies_of": "Tiefling",
+            "desc": "You are part of a Legacy that grants you supernatural abilities.",
             "traits": [
                 {
                     "name": "",
