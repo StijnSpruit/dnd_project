@@ -8,7 +8,7 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You are able to see clearly in dim light up to 60 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
+                    "desc": "You are able to see clearly in dim light up to 60 ft as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
                     "name": "Celestial Resistance",
@@ -24,7 +24,7 @@
                 },
                 {
                     "name": "Celestial Revelation.",
-                    "desc": "Starting at 3rd level, you can use a Bonus Action to transform, choosing one of the following options each time. The transformation lasts for 1 minute or until you end it. Once used, you must finish a Long Rest before using it again. During the transformation, you can deal extra damage equal to your Proficiency Bonus once per turn, with the type depending on the option chosen. <strong>Heavenly Wings: </strong>Temporary spectral wings grant you a flying speed equal to your walking speed.<strong>Inner Radiance: </strong>Brilliant light shines from your eyes and mouth, illuminating a 10-foot radius brightly and another 10 feet dimly. At the end of each turn, creatures within 10 feet take radiant damage equal to your Proficiency Bonus.<strong>Necrotic Shroud: </strong>our eyes darken and shadowy wings appear. Nearby creatures (except allies) must make a Charisma saving throw or become frightened until your next turn."
+                    "desc": "Starting at 3rd level, you can use a Bonus Action to transform, choosing one of the following options each time. The transformation lasts for 1 minute or until you end it. Once used, you must finish a Long Rest before using it again. During the transformation, you can deal extra damage equal to your Proficiency Bonus once per turn, with the type depending on the option chosen. <strong>Heavenly Wings: </strong>Temporary spectral wings grant you a flying speed equal to your walking speed.<strong>Inner Radiance: </strong>Brilliant light shines from your eyes and mouth, illuminating a 10-foot radius brightly and another 10 ft dimly. At the end of each turn, creatures within 10 ft take radiant damage equal to your Proficiency Bonus.<strong>Necrotic Shroud: </strong>our eyes darken and shadowy wings appear. Nearby creatures (except allies) must make a Charisma saving throw or become frightened until your next turn."
                 }
             ]
         },
@@ -48,7 +48,7 @@
                 },
                 {
                     "name": "Darkvision",
-                    "desc": "You are able to see clearly in dim light up to 60 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
+                    "desc": "You are able to see clearly in dim light up to 60 ft as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
                     "name": "Draconic Flight",
@@ -64,7 +64,7 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You are able to see clearly in dim light up to 120 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
+                    "desc": "You are able to see clearly in dim light up to 120 ft as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
                     "name": "Dwarven Resilience",
@@ -76,7 +76,7 @@
                 },
                 {
                     "name": "Stonecunning",
-                    "desc": "As a Bonus Action, you gain Tremorsense out to 60 feet for 10 minutes, provided you are on or touching stone. This can be used a number of times equal to your Proficiency Bonus per Long Rest."
+                    "desc": "As a Bonus Action, you gain Tremorsense out to 60 ft for 10 minutes, provided you are on or touching stone. This can be used a number of times equal to your Proficiency Bonus per Long Rest."
                 }
             ]
         },
@@ -88,7 +88,7 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You are able to see clearly in dim light up to 60 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
+                    "desc": "You are able to see clearly in dim light up to 60 ft as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
                     "name": "Elven Lineage",
@@ -116,7 +116,7 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You are able to see clearly in dim light up to 60 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
+                    "desc": "You are able to see clearly in dim light up to 60 ft as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
                     "name": "Gnome Cunning",
@@ -204,7 +204,7 @@
                 },
                 {
                     "name": "Darkvision",
-                    "desc": "You are able to see clearly in dim light up to 120 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
+                    "desc": "You are able to see clearly in dim light up to 120 ft as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 }
             ]
         },
@@ -216,7 +216,7 @@
             "traits": [
                 {
                     "name": "Darkvision",
-                    "desc": "You are able to see clearly in dim light up to 60 feet as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
+                    "desc": "You are able to see clearly in dim light up to 60 ft as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors."
                 },
                 {
                     "name": "Fiendish legacy",
@@ -236,8 +236,16 @@
             "desc": "You are part of the Elven Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Level 1",
+                    "desc": "Your darkvision range becomes 120ft and you learn the Dancing Lights cantrip"
+                },
+                {
+                    "name": "Level 3",
+                    "desc": "You learn the Faerie Fire spell"
+                },
+                {
+                    "name": "Level 5",
+                    "desc": "You learn the Darkness spell"
                 }
             ]
         },
@@ -247,8 +255,16 @@
             "desc": "You are part of the Elven Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Level 1",
+                    "desc": "You learn the Prestidigitation cantrip. Once per long rest you can replace this cantrip with one from the Wizard spell list"
+                },
+                {
+                    "name": "Level 3",
+                    "desc": "You learn the Detect Magic spell"
+                },
+                {
+                    "name": "Level 5",
+                    "desc": "You learn the Misty Step spell"
                 }
             ]
         },
@@ -258,8 +274,16 @@
             "desc": "You are part of the Elven Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Level 1",
+                    "desc": "Your speed becomes 35ft and you learn the Druidcraft cantrip"
+                },
+                {
+                    "name": "Level 3",
+                    "desc": "You learn the Longstrider spell"
+                },
+                {
+                    "name": "Level 5",
+                    "desc": "You learn the Pass without trace spell"
                 }
             ]
         },
@@ -269,8 +293,12 @@
             "desc": "You are part of the Gnome Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Minor Illusion",
+                    "desc": "You learn the Minor Illusion cantrip"
+                },
+                {
+                    "name": "Speak with animals",
+                    "desc": "You learn the Speak with animals spell, which you can use without wasting a spell slot the amount of times equal to your proficiency bonus"
                 }
             ]
         },
@@ -280,8 +308,8 @@
             "desc": "You are part of the Gnome Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Little Tinkerer",
+                    "desc": "You learn the Prestidigitation and Mending cantrips. You can use the Prestidigitation cantrip to make a little device (5 AC, 1hp) which can have one effect from Prestidigitation. Take a bonus action to activate the effect. The devices fall apart after 8 hours or when you take a utilize action, and you can have max 3 of them at a time."
                 }
             ]
         },
@@ -291,8 +319,8 @@
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Cloud's Jaunt",
+                    "desc": "You can us a bonus action to magically teleport to any unoccupied area you can see within 30ft of you."
                 }
             ]
         },
@@ -302,8 +330,8 @@
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Fire's Burn",
+                    "desc": "When you hit a target with an attack roll you can do your attack's damage + 1d10 fire damage"
                 }
             ]
         },
@@ -313,8 +341,8 @@
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Frost's chill",
+                    "desc": "When you hit a target with an attack roll you can do your attack's damage + 1d6 Cold damage. The target's speed also reduces to 10ft until the start of your next turn"
                 }
             ]
         },
@@ -324,8 +352,8 @@
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Hill's Tumble",
+                    "desc": "When you target a Large or Small creature and deal damage, you can give the target the Prone condition"
                 }
             ]
         },
@@ -335,8 +363,8 @@
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Stone's Endurance",
+                    "desc": "When you take any damage, you can make a 1d12 reaction roll. Reduce the dealt damage by the number you rolled + your CON modifier"
                 }
             ]
         },
@@ -346,8 +374,8 @@
             "desc": "You are part of a Giant Lineage that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Storm's Thunder",
+                    "desc": "When you take any damage from a creature within 60 ft of you, you can make a 1d8 reaction roll to deal the rolled number of thunder damage to that creature"
                 }
             ]
         },
@@ -357,8 +385,16 @@
             "desc": "You are part of a Legacy that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Level 1",
+                    "desc": "You are resistent to poison damage. You learn the Poison Spray cantrip"
+                },
+                {
+                    "name": "Level 3",
+                    "desc": "You learn the Ray of Sickness spell"
+                },
+                {
+                    "name": "Level 5",
+                    "desc": " You learn the Hold Person spell"
                 }
             ]
         },
@@ -368,19 +404,35 @@
             "desc": "You are part of a Legacy that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Level 1",
+                    "desc": "You are resistent to Necrotic damage. You learn the Chill Touch cantrip"
+                },
+                {
+                    "name": "Level 3",
+                    "desc": "You learn the False Life spell"
+                },
+                {
+                    "name": "Level 5",
+                    "desc": " You learn the Ray of Enfeeblement spell"
                 }
             ]
         },
         {
-            "name": "Abyssal",
+            "name": "Inferno",
             "subspecies_of": "Tiefling",
             "desc": "You are part of a Legacy that grants you supernatural abilities.",
             "traits": [
                 {
-                    "name": "",
-                    "desc": ""
+                    "name": "Level 1",
+                    "desc": "You are resistent to Fire damage. You learn the Fire Bolt cantrip"
+                },
+                {
+                    "name": "Level 3",
+                    "desc": "You learn the Hellish Rebuke spell"
+                },
+                {
+                    "name": "Level 5",
+                    "desc": " You learn the Darkness spell"
                 }
             ]
         }
