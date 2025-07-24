@@ -6,7 +6,11 @@ const port = 3000;
 app.use(cors());
 
 //json imports
-const phb24 = require('./json/phb_24.json');
+const phb24 = {
+    species: require('./json/phb24/phb_24_species.json').species,
+    subspecies: require('./json/phb24/phb_24_species.json').subspecies,
+    classes: require('./json/phb24/phb_24_classes.json')
+};
 
 const BOOKS = [
     { name: "Acquisitions Incorporated", url: "https://www.dndbeyond.com/sources/ai", content: {}, shortname: "ai" },
