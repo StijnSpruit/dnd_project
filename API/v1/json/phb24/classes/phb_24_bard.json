@@ -2,12 +2,12 @@
  "class": {
   "name": "Bard",
   "identifier": "bard",
-  "desc": "",
-  "5elink":"https://5e.tools/classes.html#bard_xphb",
-  "hit_die": "",
-  "lvl_1_hitpoint": "",
-  "hitpoint_per_level": "",
-  "saving_throw_prof": "",
+  "desc": "music, words and dance are magical for you",
+  "5elink": "https://5e.tools/classes.html#bard_xphb",
+  "hit_die": "d8",
+  "lvl_1_hitpoint": "d8 + CON modifier",
+  "hitpoint_per_level": "d8 + CON modifier or 5 + CON modifier",
+  "saving_throw_prof": "DEX and CHA",
   "levels": [
    {
     "level": "1st",
@@ -22,12 +22,12 @@
         "desc": "You can take a bonus action to inspire anothe creature within a range of 60ft of you if they can see or hear you. This creature will receive one of your bardic dice, of which they can only have one at a time. When the inspired creature fails a d20 test within the next hour, they can roll the bardic dice and add the rolled value to their d20. the creature can do this once."
        },
        {
-        "name":"Number of uses",
-        "desc":"You can use Bardic inspiration as many times as your CHA modifier and regain expended uses after a long rest."
+        "name": "Number of uses",
+        "desc": "You can use Bardic inspiration as many times as your CHA modifier and regain expended uses after a long rest."
        },
        {
-        "name":"Higher levels",
-        "desc":"Your bardic die upgrades to a d8 at level 5, d10 at level 10 and a d12 at level 15"
+        "name": "Higher levels",
+        "desc": "Your bardic die upgrades to a d8 at level 5, d10 at level 10 and a d12 at level 15"
        }
       ]
      },
@@ -40,24 +40,24 @@
         "desc": "You learn 2 cantrips of your choice from the bard spell list. This choice can be changed whenever you gain a character level."
        },
        {
-        "name":"Spell slots",
-        "desc":"You have limited amounts of spell slots. See your bard's level class features to see how many you're allowed to have"
+        "name": "Spell slots",
+        "desc": "You have limited amounts of spell slots. See your bard's level class features to see how many you're allowed to have"
        },
        {
-        "name":"Prepared spells",
-        "desc":"You prepare a list of spells available to you. See your bard's level class features to see how many you're allowed to have prepared"
+        "name": "Prepared spells",
+        "desc": "You prepare a list of spells available to you. See your bard's level class features to see how many you're allowed to have prepared"
        },
        {
-        "name":"Replacing prepared spells",
-        "desc":"When your character level increases, you can change one spell of your spell list with another one with the correct spell slot"
+        "name": "Replacing prepared spells",
+        "desc": "When your character level increases, you can change one spell of your spell list with another one with the correct spell slot"
        },
        {
-        "name":"Spellcasting ability",
-        "desc":"You use CHA as your spellcasting ability"
+        "name": "Spellcasting ability",
+        "desc": "You use CHA as your spellcasting ability"
        },
        {
-        "name":"Spellcasting focus",
-        "desc":"you can use a musical instrument for spellcasting"
+        "name": "Spellcasting focus",
+        "desc": "you can use a musical instrument for spellcasting"
        }
       ]
      }
@@ -838,5 +838,205 @@
     ]
    }
   ]
- }
+ },
+ "subclasses": [
+  {
+   "name": "College of Glamour",
+   "identifier": "glamour",
+   "subclass_of": "bard",
+   "desc": "You weave threads of beauty and terror in your songs and stories",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Beguiling magic",
+       "desc": "You always have Charm Person and Mirror Image prepared. you can also force another creature within the range of 60ft to make a WIS saving throw against your spell save DC when casting an enchantment or illusion spell using a spell slot. If they fail, they will be charmed or frightened for a minute",
+       "feature_data": []
+      },
+      {
+       "name": "Mantle of Inspiration",
+       "desc": "You weave fey magic into your song or dance. You can take a bonus action to expend a bardic inspiration and roll a bardic inspiration die. The doubled die value will be the amount of temporary hit points you can give to creatures within 60 ft of you (the amount of creatures is equal to your CHA modifier and they all receive the doubled value of the die). All affected creatures can then take a reaction as well to move up to their regular speed without causing opportunity attacks",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Mantle of Majesty",
+       "desc": "You always have the Command spell prepared, which you can cast without expending a spell slot using a bonus action. You take the appearance of something not from this planet for 1 minute or until your concentration ends. While in this form you can cast command as a bonus action. Any creature you charmed automatically fails their saving throw against your command spell. Use this once per long rest or use a level 3+ spell slot to use it again (no action required).",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Unbreakable Majesty",
+       "desc": "Using a bonus action you can become a majestic magical being for a minute or until you are incapacitated. during this time creatures attacking you must succeed on a CHA saving throw against your spell save DC or else they miss.",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "College of Dance",
+   "identifier": "dance",
+   "subclass_of": "bard",
+   "desc": "You are in harmony with the cosmos that emphasizes agility speed and grace",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Dazzling footwork",
+       "desc": "while unarmored or unshielded, you gain the following benefits:",
+       "feature_data": [
+        {
+         "name": "Dance virtuoso",
+         "desc": "You can roll with advantage on any CHA checks that involve dancing"
+        },
+        {
+         "name": "Unarmored defense",
+         "desc": "Your base AC equals 10 + DEX modifier + CHA modifier"
+        },
+        {
+         "name": "Agile strikes",
+         "desc": "When a bardic inspiration is expended using a normal action, bonus action or a reaction, you can make an unarmed strike as part of that action"
+        },
+        {
+         "name": "Bardic damage",
+         "desc": "You can use DEX instead of STR for attack rolls of unarmed strikes. the bludgening damage is equal to your bardic inspiration die + DEX modifier and doesn't expend a die"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Inspiring movement",
+       "desc": "If an enemy ends its turn within 5ft of you, you (and an ally of choice within 30ft) can use a reaction and expend one of your bardic inspiration to move up to half your speed without causing opportunity attacks",
+       "feature_data": []
+      },
+      {
+       "name": "Tandem footwork",
+       "desc": "when rolling for initiative you can use a bardic inspiration to give every ally within 30ft a bonus equal to the rolled dice value on their initiative",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Leading evasion",
+       "desc": "When an effect allows you to make a DEX saving throw to half the damage, you take no damage on succes and only half damage on fail. creatures making the same DEX save within 5ft of you share this benefit.",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "College of Lore",
+   "identifier": "lore",
+   "subclass_of": "bard",
+   "desc": "You collect spells and secrets from various sources from libraries",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Bonus proficiencies",
+       "desc": "you have 3 extra proficiecies for skills of your choice",
+       "feature_data": []
+      },
+      {
+       "name": "Cutting words",
+       "desc": "If a creature within 60ft of range of you that you can see makes a damage roll or succeeds an ability check/attack roll, you can use a reaction to expend one of your bardic dice and substract the rolled value off the rolled value of the target",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Magical discoveries",
+       "desc": "Learn 2 spells of your choice. these spells can come from the Cleric, Druid or wizard spell list. this must be a cantrip or a spell of which you have spellslots available. These spells are always prepared and when you gain a bard level you can change one of the spells.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Peerless skill",
+       "desc": "When you fail an ability check or attack roll you can expend one bardic inspiration and use the rolled die as a bonus on your d20 value",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "College of Valor",
+   "identifier": "valor",
+   "subclass_of": "bard",
+   "desc": "You're a great storyteller",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Combat inspiration",
+       "desc": "you can turn the tide of the battle, as a creature that has a bardic inspiration of yours can use it for the following benefits:",
+       "feature_data": [
+        {
+         "name": "Defense",
+         "desc": "When hit by an attack roll the creature may use a reaction to roll the die and add the rolled value to their AC for that attack "
+        },
+        {
+         "name": "offense",
+         "desc": "When the creature hits a target with their attack roll, they can roll the bardic die and add the rolled value to the damage of the attack"
+        }
+       ]
+      },
+      {
+       "name": "Martial training",
+       "desc": "You are proficient with martial weapons and training with medium armor and shields and use the martial weapons as spellcasting focus",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Extra attack",
+       "desc": "you can attack twice on your turn. one of the two attacks can be a cantrip with a casting time of 1 action.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Battle magic",
+       "desc": "after casting a spell with a casting time of 1 action, you can use a bonus action to make an attack with a weapon",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
