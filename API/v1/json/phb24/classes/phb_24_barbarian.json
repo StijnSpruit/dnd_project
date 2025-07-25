@@ -381,12 +381,12 @@
       "desc": "You gain new ways to attack. You gain the following Brutal Strike options:",
       "feature_data": [
        {
-        "name":"staggering blow",
-        "desc":"The target will have disadvantage on their next saving throw and are unable to make an Opportunity attack"
+        "name": "staggering blow",
+        "desc": "The target will have disadvantage on their next saving throw and are unable to make an Opportunity attack"
        },
        {
-        "name":"sundering blow",
-        "desc":"Before your next turn, the next attack roll made by another creature against the target has a +5 bonus."
+        "name": "sundering blow",
+        "desc": "Before your next turn, the next attack roll made by another creature against the target has a +5 bonus."
        }
       ]
      }
@@ -456,12 +456,12 @@
      }
     ]
    },
-      {
+   {
     "level": "16th",
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "Improved Brutal Strike",
+      "name": "Ability score improvement",
       "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
@@ -481,12 +481,12 @@
      }
     ]
    },
-      {
+   {
     "level": "17th",
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "Ability score improvement",
+      "name": "Improved Brutal Strike",
       "desc": "You can now make brutal strikes wit 2 effects. it deals 2d10",
       "feature_data": []
      }
@@ -506,6 +506,98 @@
      }
     ]
    },
+   {
+    "level": "18th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Indomitable Might",
+      "desc": "When your rolled total for a strength check is less than your strength score, you can use your strength score for it instead",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "6"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+4"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
+   {
+    "level": "19th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Epic Boon",
+      "desc": "You gain an Epic Boon feat or another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "6"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+4"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   },
+   {
+    "level": "20th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Primal Champion",
+      "desc": "Your Strength and Constitution scores increase by 4, these scores can be a maximum of 25",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Rages",
+      "value": "6"
+     },
+     {
+      "name": "Rage Damage",
+      "value": "+4"
+     },
+     {
+      "name": "Weapon Mastery",
+      "value": "4"
+     }
+    ]
+   }
   ]
- }
+ },
+ "subclasses": [
+  {
+   "name": "Path of the Zealot",
+   "desc": "You receive boons from a god or pantheon. Barbarians that walk this path usually are allies of a priest and others who follow their god/pantheon",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": ""
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
