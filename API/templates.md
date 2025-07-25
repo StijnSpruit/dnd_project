@@ -4,6 +4,8 @@ in index.js we have our books json. replace book name with the shortname of the 
 Since large json files load long, we split up our data:
 - species and subspecies
 - class and its subclasses
+
+We also indent by single spaces. this is still very readable and saves about 50% of data compared to full tabs
 ```js
 const book_name = {
     species: require('./json/phb24/phb_24_species.json').species,
@@ -110,4 +112,260 @@ json/phb24/classes/phb_24_barbarian.json:
         }
     ]
 
+```
+empty class template:
+```json
+{
+ "class": {
+  "name": "",
+  "identifier": "",
+  "desc": "",
+  "hit_die": "",
+  "lvl_1_hitpoint": "",
+  "hitpoint_per_level": "",
+  "saving_throw_prof": "",
+  "levels": [
+   {
+    "level": "1st",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "2nd",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "3rd",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Barbarian Subclass",
+      "desc": "Gain a subclass for your barbarian character",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "4th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "5th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "6th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "7th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "8th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "9th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "10th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "11th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "12th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "13th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "14th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "15th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "16th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "17th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "18th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "19th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "20th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   }
+  ]
+ }
+}
 ```
