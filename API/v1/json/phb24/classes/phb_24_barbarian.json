@@ -586,14 +586,260 @@
  "subclasses": [
   {
    "name": "Path of the Zealot",
+   "identifier": "zealot",
+   "subclass_of": "barbarian",
    "desc": "You receive boons from a god or pantheon. Barbarians that walk this path usually are allies of a priest and others who follow their god/pantheon",
    "levels": [
     {
      "level": "3rd",
      "features": [
       {
-       "name": "",
-       "desc": ""
+       "name": "Divine Fury",
+       "desc": "You use Divine Power in your powerful strikes. Each turn, while you're in Rage, the first target you hit with an unarmed strike or a weapon takes 1d6 + half your barbarian level (round up) of extra damage of type Necrotic or Radiant (choose at attack)",
+       "feature_data": []
+      },
+      {
+       "name": "Warrior of the gods",
+       "desc": "You have a god/pantheon helping you during your fight. You have 4d12 available to heal yourself. You can take a bonus action to expend one of the d12's for a Hit Point boost. All expended dice are regained after a long rest and the maximum amount increases with 1d12 at level 6, 12 and 17",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Fanatical Focus",
+       "desc": "While in Rage and you fail a saving throw, you can reroll it with a bonus equal to your Rage Damage bonus. This roll must be used and can only be used once per active Rage",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "Zealous Presence",
+       "desc": "A battle cry full of divine power roars across the battlefield as you take your bonus action to give up to 10 creatures in the range of 60ft advantage on their attack rolls and saving throws until the start of your next turn",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Rage of the Gods",
+       "desc": "When Rage is activated, you can transform into a divine warrior for a minute (or until you drop to 0hp). You can use this feature once per long rest and you will gain the following benefits:",
+       "feature_data": [
+        {
+         "name": "Flight",
+         "desc": "You can fly and hover. Fly speed is the same as your regular speed"
+        },
+        {
+         "name": "Resistance",
+         "desc": "You are resistent to the Necrotic, Psychic and Radiant damage types"
+        },
+        {
+         "name": "Revivification",
+         "desc": "You can revive a creature within 30ft of you when they have 0HP. You can make a reaction and expend one use of Rage to change the creatures Hit Points to the same number as your barbarian level"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Path of the World tree",
+   "identifier": "world_tree",
+   "subclass_of": "barbarian",
+   "desc": "You're connected to the cosmic tree named `Yggdrasil`. You use this cosmic tree as a means of dimensional travel and as a source for magic",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Vitality of the Tree",
+       "desc": "Your Rage is connected to the mighty life force of the World Tree. Because of this, you gain the following benefits:",
+       "feature_data": [
+        {
+         "name": "Vitality surge",
+         "desc": "You gain an amount of Temporary Hit Points equal to your barbarian level when you enter Rage"
+        },
+        {
+         "name": "Life giving force",
+         "desc": "At each start of your turn while in Rage, you can choose another creature within 10ft of you to gain Temporary Hit Points equal to an amount of d6's equal to your Rage Damage bonus. These hit points fade away when your rage ends."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Branches of the Tree",
+       "desc": "You can summon spectral branches around a creature within 30ft of you that's starting its turn. This is a Reaction action. The target must make a saving throw (DC8 + STR modifier + Proficiency). if they fail you can teleport the target to any unoccupied area you can see and reduce its speed to 0 until the end of the current turn.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "Battering Roots",
+       "desc": "You have 10ft of extra range with Heavy or Versatile weapons as roots of the tree extend your reach.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Travel Along the Tree",
+       "desc": "When Rage is activated, you can use a bonus action to teleport to an unoccupied area within 60ft. Once per Rage, you can increase the distance to 150ft and take 6 creatures that are within 10ft of you with you",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Path of the Wild Heart",
+   "identifier": "wild_heart",
+   "subclass_of": "barbarian",
+   "desc": "You're related to animals and you learn magical ways to communicate with them",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Animal Speaker",
+       "desc": "You can cast Beast Sense and Speak with Animals as a ritual. Your spellcasting ability is WIS"
+      },
+      {
+       "name": "Rage of the Wilds",
+       "desc": "Your Rage is connected to the primal force of animals. Because of this, you gain one of the following benefits:",
+       "feature_data": [
+        {
+         "name": "Bear",
+         "desc": "You're resistant to every type of damage except for Force, Necrotic, Psychic or Radiant damage types while in Rage"
+        },
+        {
+         "name": "Eagle",
+         "desc": "You can do the Disengage and Dash actions as part of enabling Rage. While Rage is already active you can use a bonus action to do both of those actions"
+        },
+        {
+         "name": "Wolf",
+         "desc": "While in Rage your allies have Advantage on attack rolls against any enemy within 5ft of you"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Aspect of the Wilds",
+       "desc": "You get one of the following options. you can change your choice after a long rest:",
+       "feature_data": [
+        {
+         "name": "Owl",
+         "desc": "You have Darkvision of 60ft. If you already have this, increase the range of it by 60ft"
+        },
+        {
+         "name": "Panther",
+         "desc": "You have a climb speed of your regular speed."
+        },
+        {
+         "name": "Salmon",
+         "desc": "You have a swim speed of your regular speed."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "Nature Speaker",
+       "desc": "You can cast Commune with Nature as a ritual. your spellcasting ability is WIS",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Power of the Wilds",
+       "desc": "When Rage is activated, you can have one of the following options:",
+       "feature_data": [
+        {
+         "name": "Falcon",
+         "desc": "You have a fly speed of your regular speed when unarmored."
+        },
+        {
+         "name": "Lion",
+         "desc": "Enemies have disadvantage on attack rolls against targets other than you or other barbarians with this option."
+        },
+        {
+         "name": "Ram",
+         "desc": "you can give larger or smaller creatures the prone condition when doing a melee attack."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Path of the Berserker",
+   "identifier": "berserker",
+   "subclass_of": "barbarian",
+   "desc": "You're violent",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Frenzy",
+       "desc": "When doing a reckless attack during your Rage, the first target you hit takes extra damage (same damage type as the weapon or unarmed strike used for the attack) of an amount of d6's equal to your Rage Damage bonus"
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Mindless Rage",
+       "desc": "You cannot be charmed or frightened while in rage. You can also end these conditions by entering rage",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "Retalliation",
+       "desc": "When taking damage from a creature within 5ft of you, you can take a reaction to make a single melee attack against that creature with a weapon or an unarmed strike",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Intimidating Presence",
+       "desc": "You can use a bonus action to become very intimidating. One creature of your choice in a 30ft range has to make a WIS saving throw (DC 8 + STR modifier + Proficiency). If the creature fails it will be frightened for 1 minute. at the end of each turn of the creature it makes the saving throw again, ending his condition on success. Use once per long rest.",
+       "feature_data": []
       }
      ]
     }

@@ -14,6 +14,12 @@ const phb24 = {
             identifier: "barbarian",
             content: require('./json/phb24/classes/phb_24_barbarian.json').class
         } 
+    ],
+    subclasses: [
+        {
+            identifier:"barbarian",
+            content: require('./json/phb24/classes/phb_24_barbarian.json').subclasses
+        }
     ]
 };
 
@@ -107,6 +113,35 @@ app.get('/api/books/:name/:content/:identifier', (req, res) => {
         }
     } else {
         res.status(404).send('Content not found');
+    }
+});
+
+app.get('/api/books/:name/:content/:identifier/:subidentifier', (req, res) => {
+    const { name: bookShortname, content: contentKey, identifier, subidentifier } = req.params;
+    
+    const book = BOOKS.find(b => b.shortname === bookShortname);
+    if (!book || !book.content || !Array.isArray(book.content[contentKey])) {
+        return res.status(404).send('Content not found');
+    }
+
+    const item = book.content[contentKey].find(
+        entry => entry.identifier?.toLowerCase() === identifier.toLowerCase()
+    );
+
+    if (!item || !item.content) {
+        return res.status(404).send('Item not found');
+    }
+
+    const subItem = Array.isArray(item.content)
+        ? item.content.find(
+            sub => sub.identifier?.toLowerCase() === subidentifier.toLowerCase()
+        )
+        : null;
+
+    if (subItem) {
+        return res.json(subItem);
+    } else {
+        return res.status(404).send('Subitem not found');
     }
 });
 
