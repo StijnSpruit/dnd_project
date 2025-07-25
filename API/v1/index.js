@@ -13,7 +13,11 @@ const phb24 = {
         {
             identifier: "barbarian",
             content: require('./json/phb24/classes/phb_24_barbarian.json').class
-        } 
+        },
+        {
+            identifier: "bard",
+            content: require('./json/phb24/classes/phb_24_bard.json').class
+        }
     ],
     subclasses: [
         {

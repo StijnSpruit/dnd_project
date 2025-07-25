@@ -1,0 +1,842 @@
+{
+ "class": {
+  "name": "Bard",
+  "identifier": "bard",
+  "desc": "",
+  "5elink":"https://5e.tools/classes.html#bard_xphb",
+  "hit_die": "",
+  "lvl_1_hitpoint": "",
+  "hitpoint_per_level": "",
+  "saving_throw_prof": "",
+  "levels": [
+   {
+    "level": "1st",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Bardic Inspiration",
+      "desc": "Your words, musical pieces or dances are filled with so much talent, you can inspire others with it. It's a supernatural talent and your inspiration is represented by your bardic die",
+      "feature_data": [
+       {
+        "name": "Using bardic inspiration",
+        "desc": "You can take a bonus action to inspire anothe creature within a range of 60ft of you if they can see or hear you. This creature will receive one of your bardic dice, of which they can only have one at a time. When the inspired creature fails a d20 test within the next hour, they can roll the bardic dice and add the rolled value to their d20. the creature can do this once."
+       },
+       {
+        "name":"Number of uses",
+        "desc":"You can use Bardic inspiration as many times as your CHA modifier and regain expended uses after a long rest."
+       },
+       {
+        "name":"Higher levels",
+        "desc":"Your bardic die upgrades to a d8 at level 5, d10 at level 10 and a d12 at level 15"
+       }
+      ]
+     },
+     {
+      "name": "Spellcasting",
+      "desc": "You know how to cast spells with your words, music or dances. You can use spells on the bard spell list",
+      "feature_data": [
+       {
+        "name": "Cantrips",
+        "desc": "You learn 2 cantrips of your choice from the bard spell list. This choice can be changed whenever you gain a character level."
+       },
+       {
+        "name":"Spell slots",
+        "desc":"You have limited amounts of spell slots. See your bard's level class features to see how many you're allowed to have"
+       },
+       {
+        "name":"Prepared spells",
+        "desc":"You prepare a list of spells available to you. See your bard's level class features to see how many you're allowed to have prepared"
+       },
+       {
+        "name":"Replacing prepared spells",
+        "desc":"When your character level increases, you can change one spell of your spell list with another one with the correct spell slot"
+       },
+       {
+        "name":"Spellcasting ability",
+        "desc":"You use CHA as your spellcasting ability"
+       },
+       {
+        "name":"Spellcasting focus",
+        "desc":"you can use a musical instrument for spellcasting"
+       }
+      ]
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d6"
+     },
+     {
+      "name": "cantrips",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "4"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "2nd",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Expertise",
+      "desc": "You gain expertise in two of your skill proficiencies, which means you can double your proficiency bonus on checks for those skills",
+      "feature_data": []
+     },
+     {
+      "name": "Jack of all trades",
+      "desc": "You can add half your proficiency bonus to any ability checks that doesn't use your proficiency bonus",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d6"
+     },
+     {
+      "name": "cantrips",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "5"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       3,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "3rd",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Bard Subclass",
+      "desc": "Gain a subclass for your bard character",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d6"
+     },
+     {
+      "name": "cantrips",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "6"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "4th",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d6"
+     },
+     {
+      "name": "cantrips",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "7"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "5th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Font of Inspiration",
+      "desc": "You regain all your expended uses of bardic inspiration by doing a short rest or a long rest",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d8"
+     },
+     {
+      "name": "cantrips",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "9"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "6th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Subclass feature",
+      "desc": "You gain a feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d8"
+     },
+     {
+      "name": "cantrips",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "10"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "7th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Countercharm",
+      "desc": "you can disrupt mind-influencing effects with your music. if you or a creature within the range of 30ft of you fails a saving throw against being charmed or frightened, you can use a reaction to cause a reroll with advantage",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d8"
+     },
+     {
+      "name": "cantrips",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "11"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "8th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d8"
+     },
+     {
+      "name": "cantrips",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "12"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "9th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Expertise",
+      "desc": "You gain expertise in two of your skill proficiencies, which means you can double your proficiency bonus on checks for those skills",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d8"
+     },
+     {
+      "name": "cantrips",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "14"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       1,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "10th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Magical Secrets",
+      "desc": "You have learnt secrets from magical traditions. Whenever you reach a Bard level (including this one) and the prepared spells number in the bard features table increases, you can choose any of your new prepared spells from the Bard, Cleric, Druid, and Wizard spell lists",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d10"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "15"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "11th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "You don't get any additional features",
+      "desc": "read the title.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d10"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "16"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "12th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d10"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "16"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "13th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "You don't get any additional features",
+      "desc": "read the title.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d10"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "17"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "14th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Subclass feature",
+      "desc": "You gain a feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d10"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "17"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "15th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "You don't get any additional features",
+      "desc": "read the title.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d12"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "18"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       1,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "16th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d12"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "18"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       1,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "17th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "You don't get any additional features",
+      "desc": "read the title.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d12"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "19"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       1,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "level": "18th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Superior Inspiration",
+      "desc": "When rolling for initiative, you get back your expended bardic inspiration uses until you have 2.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d12"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "20"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       3,
+       1,
+       1,
+       1,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "level": "19th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Epic Boon",
+      "desc": "You gain an Epic Boon feat or another feat you qualify for.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d12"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "21"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "level": "20th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Words of creation",
+      "desc": "You always have the Power Word Heal and Power Word Kill spells prepared. When casting it on one creature, you can cast it on a second creature if it's within 10ft of the first target",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Bardic Die",
+      "value": "1d12"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "22"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       3,
+       2,
+       2,
+       1,
+       1
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

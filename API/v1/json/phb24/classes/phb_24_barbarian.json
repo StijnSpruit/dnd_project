@@ -3,6 +3,7 @@
   "name": "Barbarian",
   "identifier": "barbarian",
   "desc": "rage and shit",
+  "5elink":"https://5e.tools/classes.html#barbarian_xphb",
   "hit_die": "d12",
   "lvl_1_hitpoint": "12 + CON modifier",
   "hitpoint_per_level": "1d12 + CON modifier or 7 + CON modifier",
