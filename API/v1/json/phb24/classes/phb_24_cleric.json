@@ -8,19 +8,70 @@
   "hitpoint_per_level": "d8 + CON modifier or 5 + CON modifier",
   "primary_ability": "WIS",
   "saving_throw_prof": "WIS and CHA",
-  "skill_prof": ["History", "Insight", "Medicine", "Persuasion", "Religion"],
-  "weapon_prof": ["Simple weapons"],
+  "skill_prof": [
+   "History",
+   "Insight",
+   "Medicine",
+   "Persuasion",
+   "Religion"
+  ],
+  "weapon_prof": [
+   "Simple weapons"
+  ],
   "tool_prof": [],
-  "armor_training": ["light armor", "medium armor", "shields"],
+  "armor_training": [
+   "light armor",
+   "medium armor",
+   "shields"
+  ],
   "levels": [
    {
     "level": "1st",
     "prof_bonus": "+2",
     "features": [
      {
-      "name": "",
-      "desc": "",
-      "feature_data": []
+      "name": "Spellcasting",
+      "desc": "You know how to cast spells by praying. You can use spells on the cleric spell list",
+      "feature_data": [
+       {
+        "name": "Cantrips",
+        "desc": "You learn 3 cantrips of your choice from the cleric spell list. This choice can be changed whenever you gain a character level."
+       },
+       {
+        "name": "Spell slots",
+        "desc": "You have limited amounts of spell slots. See your cleric's level class features to see how many you're allowed to have"
+       },
+       {
+        "name": "Prepared spells",
+        "desc": "You prepare a list of spells available to you. See your cleric's level class features to see how many you're allowed to have prepared"
+       },
+       {
+        "name": "Replacing prepared spells",
+        "desc": "When your character level increases, you can change one spell of your spell list with another one with the correct spell slot"
+       },
+       {
+        "name": "Spellcasting ability",
+        "desc": "You use WIS as your spellcasting ability"
+       },
+       {
+        "name": "Spellcasting focus",
+        "desc": "you can use a holy symbol for spellcasting"
+       }
+      ]
+     },
+     {
+      "name": "Divine order",
+      "desc": "you have dedicated yourself to one of the following holy roles:",
+      "feature_data": [
+       {
+        "name": "protector",
+        "desc": "You gain proficiency with Martial weapons and are trained for heavy armor"
+       },
+       {
+        "name": "thaumaturge",
+        "desc": "You gain one extra cantrip from the cleric spell list and a bonus on your arcana and religion checks. this bonus is equal to your WIS modifier"
+       }
+      ]
      }
     ],
     "class_specific": [
@@ -57,9 +108,18 @@
     "prof_bonus": "+2",
     "features": [
      {
-      "name": "",
-      "desc": "",
-      "feature_data": []
+      "name": "Channel divinity",
+      "desc": "you can use divine energy to use magical effects. After expending you regain one use after a short rest and all after a long rest. Each time you use channel divinity, you choose which of the following 2 effects:",
+      "feature_data": [
+       {
+        "name": "divine spark",
+        "desc": "Using a magic action, you point your holy symbol towards a creature within 30ft of you and focus divine energy at it. It either regains an amount of hitpoints equal to 1d8 + CON modifier, or it has to make a CON saving throw, and takes 1d8 + CON modifier of (necrotic or radiant) damage on a fail. on levels 7, 13 and 18 you gain an extra 1d8 to roll with this."
+       },
+       {
+        "name": "turn undead",
+        "desc": "Using a magic action, you use your holy symbol on undead creatures. each undead creature of your choice within 30ft of you has to make a WIS saving throw. On fail they will be frightened and incapacitated for 1 minute, and they will try to move away from you every turn this effect is active. ends early if the creature takes damage, when you're incapacitated or when you die. "
+       }
+      ]
      }
     ],
     "class_specific": [
@@ -174,8 +234,8 @@
     "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Sear undead",
+      "desc": "when using turn undead you gain a number of d8's equal to your WIS modifier. roll them and add them together. Each undead has to do a WIS saving throw against this value. on a fail they take radiant damage equal to that value. this damage does not end the effect.",
       "feature_data": []
      }
     ],
@@ -213,8 +273,8 @@
     "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
       "feature_data": []
      }
     ],
@@ -252,9 +312,18 @@
     "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
-      "feature_data": []
+      "name": "Blessed strikes",
+      "desc": "you gain one of the following options for your channel divinity",
+      "feature_data": [
+       {
+        "name": "Divine strike",
+        "desc": "once per turn when hitting a creature with a weapon, you can give the creature an extra 1d8 of necrotic or radiant damage"
+       },
+       {
+        "name": "Potent spellcasting",
+        "desc": "you can add your WIS modifier to the damage of any cleric cantrip"
+       }
+      ]
      }
     ],
     "class_specific": [
@@ -291,8 +360,8 @@
     "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
@@ -330,8 +399,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "You don't get any additional features",
+      "desc": "read the title",
       "feature_data": []
      }
     ],
@@ -369,8 +438,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Divine intervention",
+      "desc": "Using a magic action, you can choose any cleric spell of lvl 5 and use this spell without expending a spell slot. use this once per long rest",
       "feature_data": []
      }
     ],
@@ -408,8 +477,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "You don't get any additional features",
+      "desc": "read the title",
       "feature_data": []
      }
     ],
@@ -447,8 +516,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
@@ -486,8 +555,8 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "You don't get any additional features",
+      "desc": "read the title",
       "feature_data": []
      }
     ],
@@ -525,9 +594,18 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
-      "feature_data": []
+      "name": "Improved blessed strikes",
+      "desc": "You get better at blessed strikes",
+      "feature_data": [
+       {
+        "name": "Divine strike",
+        "desc": "the extra damage increases to 2d8"
+       },
+       {
+        "name": "Potent spellcasting",
+        "desc": "When casting a cleric cantrip and dealing damage to a creature within 60ft you can give vitality to yourself and one other creature, granting you temporary hit points equal to double your WIS modifier"
+       }
+      ]
      }
     ],
     "class_specific": [
@@ -564,8 +642,8 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "You don't get any additional features",
+      "desc": "read the title",
       "feature_data": []
      }
     ],
@@ -603,8 +681,8 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
@@ -642,8 +720,8 @@
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
       "feature_data": []
      }
     ],
@@ -681,8 +759,8 @@
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "You don't get any additional features",
+      "desc": "read the title",
       "feature_data": []
      }
     ],
@@ -720,8 +798,8 @@
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Epic boon",
+      "desc": "You gain an Epic Boon feat or another feat you qualify for.",
       "feature_data": []
      }
     ],
@@ -759,8 +837,8 @@
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Greater divine intervention",
+      "desc": "When using your divine intervention feature, you can choose wish. Roll 2d4 to determine how many long rests you need to do before you can use this feature again.",
       "feature_data": []
      }
     ],
@@ -794,5 +872,205 @@
     ]
    }
   ]
- }
+ },
+ "subclasses": [
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": [
+        {
+         "name": "",
+         "desc": ""
+        },
+        {
+         "name": "",
+         "desc": ""
+        },
+        {
+         "name": "",
+         "desc": ""
+        },
+        {
+         "name": "",
+         "desc": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": [
+        {
+         "name": "",
+         "desc": ""
+        },
+        {
+         "name": "",
+         "desc": ""
+        }
+       ]
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
