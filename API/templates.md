@@ -374,3 +374,50 @@ empty class template:
  }
 }
 ```
+empty subclass json (same file as class)
+```
+"subclasses": [
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+```
