@@ -67,7 +67,9 @@ json/phb24/classes/phb_24_barbarian.json:
             "lvl_1_hitpoint":"12 + CON modifier",
             "hitpoint_per_level":"1d12 + CON modifier or 7 + CON modifier",
             "saving_throw_prof":"STR and CON",
+            "primary_ability": "STR",
             "skill_prof": ["History", "Insight", "Medicine", "Persuasion", "Religion"],
+            "tool_prof": [],
             "weapon_prof": ["Simple weapons"],
             "armor_training": ["light armor", "medium armor", "shields"],
             "levels": [
