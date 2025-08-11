@@ -875,22 +875,44 @@
  },
  "subclasses": [
   {
-   "name": "",
-   "identifier": "",
-   "subclass_of": "",
-   "desc": "",
+   "name": "Life domain",
+   "identifier": "life",
+   "subclass_of": "cleric",
+   "desc": "You focus on positive energy and are an expert healer because of it",
    "levels": [
     {
      "level": "3rd",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Life domain spells",
+       "desc": "you always have certain spells available. you gain additional spells on different levels. see the spells at each level here:",
+       "feature_data": [
+        {
+         "name": "3rd",
+         "desc": "you have the spells: Aid, Bless, Cure Wounds, Lesser Restoration"
+        },
+        {
+         "name": "5th",
+         "desc": "you have the spells: Mass healing word, Revivivy"
+        },
+        {
+         "name": "7th",
+         "desc": "you have the spells: Aura of life, Death Ward"
+        },
+        {
+         "name": "9th",
+         "desc": "you have the spells: Greater Restoration, Mass Cure Wounds"
+        }
+       ]
+      },
+      {
+       "name": "Disciple of life",
+       "desc": "When casting a spell with a spell slot restores hit points to a creature, that creature regains an amount of extra hit points equal to 2 + the spell slot level ",
        "feature_data": []
       },
       {
-       "name": "",
-       "desc": "",
+       "name": "Preserve life",
+       "desc": "Using a magic action, you expend a use of channel divinity to restore health in a range of 30ft. The restorable hitpoints equal 5x your cleric class, and can be divided between many creatures within range. creatures can not gain more than half of their hit points",
        "feature_data": []
       }
      ]
@@ -899,18 +921,18 @@
      "level": "6th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Blessed healer",
+       "desc": "Healing spells heal you as well. A spell healing another creature will immediately heal 2 + spell slot level hit points on your character",
        "feature_data": []
       }
      ]
     },
     {
-     "level": "14th",
+     "level": "17th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Supreme Healing",
+       "desc": "you don't have to roll the dice to heal and can instead use the highest number on the dice. 2d6 would be 12 hit points for example",
        "feature_data": []
       }
      ]
@@ -918,33 +940,121 @@
    ]
   },
   {
-   "name": "",
-   "identifier": "",
-   "subclass_of": "",
-   "desc": "",
+   "name": "Light domain",
+   "identifier": "light",
+   "subclass_of": "cleric",
+   "desc": "this domain is focused on fire",
    "levels": [
     {
      "level": "3rd",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Light domain spells",
+       "desc": "you always have certain spells available. you gain additional spells on different levels. see the spells at each level here:",
        "feature_data": [
         {
-         "name": "",
-         "desc": ""
+         "name": "3rd",
+         "desc": "you have the spells: Burning hands, Faerie fire, Scorching ray, See invisibility"
         },
         {
-         "name": "",
-         "desc": ""
+         "name": "5th",
+         "desc": "you have the spells: Daylight, Fireball"
         },
         {
-         "name": "",
-         "desc": ""
+         "name": "7th",
+         "desc": "you have the spells: Arcane eye, wall of fire"
         },
         {
-         "name": "",
-         "desc": ""
+         "name": "9th",
+         "desc": "you have the spells: Flame Strike, Scrying"
+        }
+       ]
+      },
+      {
+       "name": "Radiance of the dawn",
+       "desc": "Using a magic action, you expend a use of channel divinity to emit light in a range of 30ft of yourself, which stops the darkness from a magical darkness spell. Aditionally you can force creatures of your choice in that area to make a CON saving throw. on a fail the creatures take 2d10 + cleric level of radiant damage. On succes they take half of that damage.",
+       "feature_data": []
+      },
+      {
+       "name": "Warding flare",
+       "desc": "When a creature within 30ft makes an attack roll, you can make a reaction to give that creature disadvantage. You regain uses by doing a long rest and you can use it equal to your WIS modifier",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Improved warding flare",
+       "desc": "You regain all uses after a short rest or a long rest and you can give the target of the triggering attack (so your party member that's being attacked) 2d6 + WIS mod of temporary hit points",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "17th",
+     "features": [
+      {
+       "name": "Corona of light",
+       "desc": "Using a magic action, you emit bright light in a range of 60ft and dim light in an additional 30ft (90ft total range) for 1 minute. Enemies within 60ft have disadvantage on saving throws against Radiance of the dawn and any spell that deals fire or radiant damage. per long rest you can use this an amount of times equal to your WIS modifier",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Trickery domain",
+   "identifier": "trickery",
+   "subclass_of": "cleric",
+   "desc": "You focus on deceptiion, illusion and stealth",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Trickery domain spells",
+       "desc": "you always have certain spells available. you gain additional spells on different levels. see the spells at each level here:",
+       "feature_data": [
+        {
+         "name": "3rd",
+         "desc": "you have the spells: Charm person, Disguise self, Invisibility, Pass without trace"
+        },
+        {
+         "name": "5th",
+         "desc": "you have the spells: Hypnotic pattern, Nondetection"
+        },
+        {
+         "name": "7th",
+         "desc": "you have the spells: Confusion, Dimension Door"
+        },
+        {
+         "name": "9th",
+         "desc": "you have the spells: Dominate person, Modify memory"
+        }
+       ]
+      },
+      {
+       "name": "Blessing of the trickster",
+       "desc": "Using a magic action, you and a creature of choice within 30ft of you can have advantage on DEX checks. this lasts until you do a long rest or until you use this feature again",
+       "feature_data": []
+      },
+      {
+       "name": "Invoke duplicity",
+       "desc": "Using a bonus action, you can expend one channel divinity to make a perfect replication of yourself within a range of 30ft for 1 minute. you gain the following benefits:",
+       "feature_data": [
+        {
+         "name": "Cast spells",
+         "desc": "The illusion can cast spells as if it's you in the illusions space. you must use your own senses though"
+        },
+        {
+         "name": "Distract",
+         "desc": "When both you and the illusion are within 5ft of a target you can get advantage on attack rolls for the target"
+        },
+        {
+         "name": "Move",
+         "desc": "Using a bonus action you can move the illusion 30ft to anunoccupied space you can see. this has a max range of 120ft away from you."
         }
        ]
       }
@@ -954,118 +1064,93 @@
      "level": "6th",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
-      },
-      {
-       "name": "",
-       "desc": "",
+       "name": "Trickster's transposition",
+       "desc": "when creating or moving your illusion using a bonus action, you can choose to teleport and swap places with your illusion.",
        "feature_data": []
       }
      ]
     },
     {
-     "level": "14th",
+     "level": "17th",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "",
-   "identifier": "",
-   "subclass_of": "",
-   "desc": "",
-   "levels": [
-    {
-     "level": "3rd",
-     "features": [
-      {
-       "name": "",
-       "desc": "",
-       "feature_data": []
-      },
-      {
-       "name": "",
-       "desc": "",
-       "feature_data": []
-      }
-     ]
-    },
-    {
-     "level": "6th",
-     "features": [
-      {
-       "name": "",
-       "desc": "",
-       "feature_data": []
-      }
-     ]
-    },
-    {
-     "level": "14th",
-     "features": [
-      {
-       "name": "",
-       "desc": "",
-       "feature_data": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "",
-   "identifier": "",
-   "subclass_of": "",
-   "desc": "",
-   "levels": [
-    {
-     "level": "3rd",
-     "features": [
-      {
-       "name": "",
-       "desc": "",
+       "name": "Improved duplicity",
+       "desc": "your duplicity gets more powerful",
        "feature_data": [
         {
-         "name": "",
-         "desc": ""
+         "name": "Shared distraction",
+         "desc": "Allies making attack rolls against a creature within 5ft of your illusion have advantage"
         },
         {
-         "name": "",
-         "desc": ""
+         "name": "Healing illusion",
+         "desc": "When your illusion dies you or another creature of choice within 5ft of it regain a number of hit points equal to your cleric level"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "War domain",
+   "identifier": "war",
+   "subclass_of": "cleric",
+   "desc": "you focus on battle.",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "War domain spells",
+       "desc": "you always have certain spells available. you gain additional spells on different levels. see the spells at each level here:",
+       "feature_data": [
+        {
+         "name": "3rd",
+         "desc": "you have the spells: Guiding bolt, Magic weapon, Shield of faith, Spiritual weapon"
+        },
+        {
+         "name": "5th",
+         "desc": "you have the spells: Crusader's mantle, Spirit guardians"
+        },
+        {
+         "name": "7th",
+         "desc": "you have the spells: Fire shield, Freedom of movement"
+        },
+        {
+         "name": "9th",
+         "desc": "you have the spells: Hold monster, Steel wind strike"
         }
        ]
       },
       {
-       "name": "",
-       "desc": "",
+       "name": "War priest",
+       "desc": "Using a bonus action, you can make one extra attack with a weapon or an unarmed strike. you can use this an amount of times equal to your WIS modifier and regain all uses after a short or long rest",
+       "feature_data": []
+      },
+      {
+       "name": "Guided strike",
+       "desc": "When you or an ally misses an attack roll you can make a reaction to use one channel divinity to add a +10 bonus to that roll",
        "feature_data": []
       }
+      
      ]
     },
     {
      "level": "6th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "War gods blessing",
+       "desc": "You can expend one channel divinity to cast Shield of faith or Spiritual weapon. This way you don't need concentration nor do you have to waste a spell slot, as this uses none. the spell lasts 1 minute instead.",
        "feature_data": []
       }
      ]
     },
     {
-     "level": "14th",
+     "level": "17th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Avatar of battle",
+       "desc": "You gain resistance to bludgeoning, piercing and slashing damage.",
        "feature_data": []
       }
      ]
