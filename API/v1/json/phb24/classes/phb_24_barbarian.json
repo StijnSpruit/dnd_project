@@ -8,6 +8,9 @@
   "lvl_1_hitpoint": "12 + CON modifier",
   "hitpoint_per_level": "1d12 + CON modifier or 7 + CON modifier",
   "saving_throw_prof": "STR and CON",
+  "skill_prof": [],
+  "weapon_prof": ["Simple weapons"],
+  "armor_training": ["light armor", "medium armor", "shields"],
   "levels": [
    {
     "level": "1st",

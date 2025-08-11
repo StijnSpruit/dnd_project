@@ -4,13 +4,16 @@
   "identifier": "cleric",
   "desc": "religion. yaaaaaayyyy...",
   "hit_die": "d8",
-  "lvl_1_hitpoint": "d8 + CON modifier",
+  "lvl_1_hitpoint": "8 + CON modifier",
   "hitpoint_per_level": "d8 + CON modifier or 5 + CON modifier",
   "saving_throw_prof": "WIS and CHA",
+  "skill_prof": ["History", "Insight", "Medicine", "Persuasion", "Religion"],
+  "weapon_prof": ["Simple weapons"],
+  "armor_training": ["light armor", "medium armor", "shields"],
   "levels": [
    {
     "level": "1st",
-    "prof_bonus": "+",
+    "prof_bonus": "+2",
     "features": [
      {
       "name": "",
@@ -18,11 +21,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "-"
+     },
+     {
+      "name": "cantrips",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "4"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "2nd",
-    "prof_bonus": "+",
+    "prof_bonus": "+2",
     "features": [
      {
       "name": "",
@@ -30,7 +60,34 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "cantrips",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "5"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       3,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "3rd",
@@ -42,11 +99,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "cantrips",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "6"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "4th",
-    "prof_bonus": "+",
+    "prof_bonus": "+2",
     "features": [
      {
       "name": "Ability score improvement",
@@ -54,11 +138,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "7"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "5th",
-    "prof_bonus": "+",
+    "prof_bonus": "+3",
     "features": [
      {
       "name": "",
@@ -66,11 +177,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "9"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "6th",
-    "prof_bonus": "+",
+    "prof_bonus": "+3",
     "features": [
      {
       "name": "",
@@ -78,11 +216,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "10"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "7th",
-    "prof_bonus": "+",
+    "prof_bonus": "+3",
     "features": [
      {
       "name": "",
@@ -90,11 +255,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "11"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "8th",
-    "prof_bonus": "+",
+    "prof_bonus": "+3",
     "features": [
      {
       "name": "",
@@ -102,11 +294,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "12"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "9th",
-    "prof_bonus": "+",
+    "prof_bonus": "+4",
     "features": [
      {
       "name": "",
@@ -114,11 +333,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "4"
+     },
+     {
+      "name": "prepared spells",
+      "value": "14"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       1,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "10th",
-    "prof_bonus": "+",
+    "prof_bonus": "+4",
     "features": [
      {
       "name": "",
@@ -126,11 +372,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "15"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "11th",
-    "prof_bonus": "+",
+    "prof_bonus": "+4",
     "features": [
      {
       "name": "",
@@ -138,11 +411,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "16"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "12th",
-    "prof_bonus": "+",
+    "prof_bonus": "+4",
     "features": [
      {
       "name": "",
@@ -150,11 +450,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "16"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "13th",
-    "prof_bonus": "+",
+    "prof_bonus": "+5",
     "features": [
      {
       "name": "",
@@ -162,11 +489,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "17"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "14th",
-    "prof_bonus": "+",
+    "prof_bonus": "+5",
     "features": [
      {
       "name": "",
@@ -174,11 +528,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "17"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       0,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "15th",
-    "prof_bonus": "+",
+    "prof_bonus": "+5",
     "features": [
      {
       "name": "",
@@ -186,11 +567,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "18"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       1,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "16th",
-    "prof_bonus": "+",
+    "prof_bonus": "+5",
     "features": [
      {
       "name": "",
@@ -198,11 +606,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "18"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       1,
+       0
+      ]
+     }
+    ]
    },
    {
     "level": "17th",
-    "prof_bonus": "+",
+    "prof_bonus": "+6",
     "features": [
      {
       "name": "",
@@ -210,11 +645,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "19"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       1,
+       1
+      ]
+     }
+    ]
    },
    {
     "level": "18th",
-    "prof_bonus": "+",
+    "prof_bonus": "+6",
     "features": [
      {
       "name": "",
@@ -222,11 +684,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "4"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "20"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       3,
+       1,
+       1,
+       1,
+       1
+      ]
+     }
+    ]
    },
    {
     "level": "19th",
-    "prof_bonus": "+",
+    "prof_bonus": "+6",
     "features": [
      {
       "name": "",
@@ -234,11 +723,38 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "4"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "21"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       3,
+       2,
+       1,
+       1,
+       1
+      ]
+     }
+    ]
    },
    {
     "level": "20th",
-    "prof_bonus": "+",
+    "prof_bonus": "+6",
     "features": [
      {
       "name": "",
@@ -246,7 +762,34 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "4"
+     },
+     {
+      "name": "cantrips",
+      "value": "5"
+     },
+     {
+      "name": "prepared spells",
+      "value": "22"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       3,
+       2,
+       2,
+       1,
+       1
+      ]
+     }
+    ]
    }
   ]
  }

@@ -8,6 +8,9 @@
   "lvl_1_hitpoint": "d8 + CON modifier",
   "hitpoint_per_level": "d8 + CON modifier or 5 + CON modifier",
   "saving_throw_prof": "DEX and CHA",
+  "skill_prof": [],
+  "weapon_prof": ["Simple weapons"],
+  "armor_training": ["light armor", "medium armor", "shields"],
   "levels": [
    {
     "level": "1st",
