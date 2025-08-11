@@ -6,9 +6,11 @@
   "hit_die": "d8",
   "lvl_1_hitpoint": "8 + CON modifier",
   "hitpoint_per_level": "d8 + CON modifier or 5 + CON modifier",
+  "primary_ability": "WIS",
   "saving_throw_prof": "WIS and CHA",
   "skill_prof": ["History", "Insight", "Medicine", "Persuasion", "Religion"],
   "weapon_prof": ["Simple weapons"],
+  "tool_prof": [],
   "armor_training": ["light armor", "medium armor", "shields"],
   "levels": [
    {
