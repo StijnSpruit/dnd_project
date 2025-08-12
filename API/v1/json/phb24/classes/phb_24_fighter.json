@@ -477,5 +477,358 @@
     ]
    }
   ]
- }
+ },
+ "subclasses": [
+  {
+   "name": "Battle master",
+   "identifier": "battle",
+   "subclass_of": "fighter",
+   "desc": "You have studied the art of battle",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Combat superiority",
+       "desc": "You learn maneuvres fueled by superiority dice",
+       "feature_data": [
+        {
+         "name": "Maneuvres",
+         "desc": "You know 3 maneuvres from the maneuvres table. you learn additional maneuvres at level 7, 10 and 15"
+        },
+        {
+         "name": "Superiority dice",
+         "desc": "You have 4 superiority dice (d8) which are expended when used. You regain all expended dice after a short or long rest. You gain a die on level 7 and 15"
+        },
+        {
+         "name": "Saving throws",
+         "desc": "if a maneuvre requires a saving throw, the DC equals 8 + STR/DEX + proficiency bonus"
+        }
+       ]
+      },
+      {
+       "name": "Student of war",
+       "desc": "You gain proficiency in one type of artisan's tools and a skill of your choice available to lvl 1 fighters.",
+       "feature_data": []
+      },
+      {
+       "name": "Maneuvre options",
+       "desc": "You can choose from this big list (seriously why is this so big this is so painful to develop)",
+       "feature_data": [
+        {
+         "name": "Ambush",
+         "desc": "When making a DEX(stealth) or initiative roll you can expend a superiority die and add the value to the roll unless you're incapacitated"
+        },
+        {
+         "name": "Bait and switch",
+         "desc": "when within 5ft of a creature you can expend a superiority die and swap places with the creature (if the creature isnt incapacitated, is willing to move and you move at least 5ft). You or the other creature get the rolled value as bonus on AC as well until next turn."
+        },
+        {
+         "name": "Commander's strike",
+         "desc": "When doing an attack, you can replace one of your attacks and let another willing creature do a reaction and make an attack instead. expend a superiority die and add it to the damage of the attack."
+        },
+        {
+         "name": "Commanding precense",
+         "desc": "When making a CHA (intimidation, performance or persuasion) check you can add the value of one of your superiority die to this check"
+        },
+        {
+         "name": "Disarming attack",
+         "desc": "When doing an attack you can attempt disarming the target using your superiority die. add the rolled value to the damage of the attack. The target must succeed on a STR saving throw or drop one of the items its holding."
+        },
+        {
+         "name": "Distracting strike",
+         "desc": "When doing an attack on a creature and hitting it, you can expend a superiority die, add the rolled value to the damage and distract the target. The next attacker attacking the target will have advantage."
+        },
+        {
+         "name": "Evasive footwork",
+         "desc": "Using a bonus action, you can expend one superiority die to take the disengage action. The rolled value will be added to your AC on the next turn."
+        },
+        {
+         "name": "Feinting attack",
+         "desc": "Using a bonus action, you can expend one superiority die to feint, choosing on creature within 5ft of yourself. You have advantage on that creature on your next turn. when it hits add the rolled value to the damage"
+        },
+        {
+         "name": "Goarding attack",
+         "desc": "When doing an attack on a creature and hitting it, use one of your superiority die to try to goad the target into attacking you. Of course you can add the rolled value to the damage. The target must make a WIS saving throw. on a fail it'll have disadvantage on all party members except for you."
+        },
+        {
+         "name": "Lunging attack",
+         "desc": "Using a bonus action, you can expend one superiority die to take the dash action. if you move 5ft in a straight line before hitting a melee attack on this turn, you can add the rolled value to the damage."
+        },
+        {
+         "name": "Maneuvreing attack",
+         "desc": "When doing an attack on a creature and hitting it, use one of your superiority die to maneuvre one of your allies who is willing to move and can see/hear you to move half its speed as areaction. you can add your rolled value to the damage."
+        },
+        {
+         "name": "Parry",
+         "desc": "When another creature damages you with a melee attack roll, you can take a reaction and expend a superiority die to reduce the damage. the reduced damage equals the rolled value + DEX or STR modifier."
+        },
+        {
+         "name": "Precision attack",
+         "desc": "When you miss an attack on an enemy, you can use one superiority die and add it to the roll."
+        },
+        {
+         "name": "Pushing attack",
+         "desc": "When doing an attack on a creature and hitting it, use one of your superiority die to attempt pushing the target. if the target is large or smaller it must do a STR saving throw or it'll be pushed back 15ft. You can add the rolled value to the damage."
+        },
+        {
+         "name": "Rally",
+         "desc": "Using a bonus action, you can expend one superiority die to give an ally within 30ft of you that can see/hear you an amount of temporary hit points equal to the roll value + half your fighter level (rounded down, level 3 would be 1 added to the roll.)"
+        },
+        {
+         "name": "",
+         "desc": ""
+        },
+        {
+         "name": "",
+         "desc": ""
+        },
+        {
+         "name": "",
+         "desc": ""
+        },
+        {
+         "name": "",
+         "desc": ""
+        },
+        {
+         "name": "",
+         "desc": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "7th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "18th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "7th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "18th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "7th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "18th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "7th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "18th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
