@@ -13,57 +13,105 @@
    "Insight",
    "Perception",
    "Persuasion",
-   "Survival"
+   "Survival",
+   "Intimidation",
+   "Acrobatics",
+   "Animal handling",
+   "Athletics"
   ],
   "weapon_prof": [
-   "Simple weapons"
+   "Simple weapons",
+   "Martial weapons"
   ],
   "tool_prof": [],
   "armor_training": [
    "light armor",
    "medium armor",
+   "heavy armor",
    "shields"
   ],
   "levels": [
    {
     "level": "1st",
-    "prof_bonus": "+",
+    "prof_bonus": "+2",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Fighting style",
+      "desc": "You gain a fighting style feat. for each level you gain you can change this feat.",
+      "feature_data": []
+     },
+     {
+      "name": "Second wind",
+      "desc": "Using a bonus action, you can expend one use of second wind to regain 1d10 + fighter level of health. You regain a single use after a short rest and all uses after a long rest. See the table to see how many times you can use it for your level.",
+      "feature_data": []
+     },
+     {
+      "name": " Weapon mastery",
+      "desc": "You gain mastery in a number of simple and martial weapons of your choice. See the table to see how many you are allowed to have per level.",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "2"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "3"
+     }
+    ]
    },
    {
     "level": "2nd",
-    "prof_bonus": "+",
+    "prof_bonus": "+2",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Action surge",
+      "desc": "On your turn (once per short or long rest, from level 17 and higher twice.) you can take an extra action thats not a magic action.",
+      "feature_data": []
+     },
+     {
+      "name": "tactical mind",
+      "desc": "When you fail an ability check you can expend one second wind use to roll a d10 and add that value to your previously rolled value.",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "2"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "3"
+     }
+    ]
    },
    {
     "level": "3rd",
     "prof_bonus": "+2",
     "features": [
      {
-      "name": "Barbarian Subclass",
-      "desc": "Gain a subclass for your barbarian character",
+      "name": "Fighter",
+      "desc": "Gain a subclass for your fighter character",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "2"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "3"
+     }
+    ]
    },
    {
     "level": "4th",
-    "prof_bonus": "+",
+    "prof_bonus": "+2",
     "features": [
      {
       "name": "Ability score improvement",
@@ -71,179 +119,324 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "3"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "4"
+     }
+    ]
    },
    {
     "level": "5th",
-    "prof_bonus": "+",
+    "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Extra attack",
+      "desc": "Whenever doing an attack action, you can take another attack action on the same turn.",
+      "feature_data": []
+     },
+     {
+      "name": "tactical shift",
+      "desc": "When using second wind with a bonus action, you can move half your speed without causing opportunity attacks.",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "3"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "4"
+     }
+    ]
    },
    {
     "level": "6th",
-    "prof_bonus": "+",
+    "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "3"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "4"
+     }
+    ]
    },
    {
     "level": "7th",
-    "prof_bonus": "+",
+    "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "3"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "4"
+     }
+    ]
    },
    {
     "level": "8th",
-    "prof_bonus": "+",
+    "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "3"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "4"
+     }
+    ]
    },
    {
     "level": "9th",
-    "prof_bonus": "+",
+    "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Indomitable",
+      "desc": "On a failed saving throw you can reroll with a bonus equal to your fighter level. use once per long rest (or twice when level 17 or higher).",
+      "feature_data": []
+     },
+     {
+      "name": "Tactical master",
+      "desc": "You can replace a mastery of a weapon with the: Push, Sap or Slow property",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "3"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "4"
+     }
+    ]
    },
    {
     "level": "10th",
-    "prof_bonus": "+",
+    "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "4"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "5"
+     }
+    ]
    },
    {
     "level": "11th",
-    "prof_bonus": "+",
+    "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Two extra attacks",
+      "desc": "You can attack 3 times during a turn",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "4"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "5"
+     }
+    ]
    },
    {
     "level": "12th",
-    "prof_bonus": "+",
+    "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "4"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "5"
+     }
+    ]
    },
    {
     "level": "13th",
-    "prof_bonus": "+",
+    "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Studied attacks",
+      "desc": "When you miss an attack on an enemy, you have advantage the next time you attack it.",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "4"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "5"
+     }
+    ]
    },
    {
     "level": "14th",
-    "prof_bonus": "+",
+    "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "4"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "5"
+     }
+    ]
    },
    {
     "level": "15th",
-    "prof_bonus": "+",
+    "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "4"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "5"
+     }
+    ]
    },
    {
     "level": "16th",
-    "prof_bonus": "+",
+    "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "5"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "6"
+     }
+    ]
    },
    {
     "level": "17th",
-    "prof_bonus": "+",
+    "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "You gain no additional features",
+      "desc": "Instead look at Action surge and Indomitable to see what you gain.",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "5"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "6"
+     }
+    ]
    },
    {
     "level": "18th",
-    "prof_bonus": "+",
+    "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "5"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "6"
+     }
+    ]
    },
    {
     "level": "19th",
-    "prof_bonus": "+",
+    "prof_bonus": "+6",
     "features": [
      {
       "name": "Epic boon",
@@ -251,19 +444,37 @@
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "5"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "6"
+     }
+    ]
    },
    {
     "level": "20th",
-    "prof_bonus": "+",
+    "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Three extra attacks",
+      "desc": "You can attack 4 times during a turn",
       "feature_data": []
      }
     ],
-    "class_specific": []
+    "class_specific": [
+     {
+      "name": "Second Wind",
+      "value": "5"
+     },
+     {
+      "name": " Weapon mastery",
+      "value": "6"
+     }
+    ]
    }
   ]
  }
