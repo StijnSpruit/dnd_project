@@ -34,9 +34,53 @@
     "prof_bonus": "+2",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Spellcasting",
+      "desc": "You know how to cast spells by praying. You can use spells on the druid spell list",
+      "feature_data": [
+       {
+        "name": "Cantrips",
+        "desc": "You learn 3 cantrips of your choice from the druid spell list. This choice can be changed whenever you gain a character level."
+       },
+       {
+        "name": "Spell slots",
+        "desc": "You have limited amounts of spell slots. See your druid's level class features to see how many you're allowed to have"
+       },
+       {
+        "name": "Prepared spells",
+        "desc": "You prepare a list of spells available to you. See your druid's level class features to see how many you're allowed to have prepared"
+       },
+       {
+        "name": "Replacing prepared spells",
+        "desc": "When your character takes a long rest, you can change one spell of your spell list with another one with the correct spell slot"
+       },
+       {
+        "name": "Spellcasting ability",
+        "desc": "You use WIS as your spellcasting ability"
+       },
+       {
+        "name": "Spellcasting focus",
+        "desc": "you can use a Druidic focus for spellcasting"
+       }
+      ]
+     },
+     {
+      "name": "Druidic",
+      "desc": "You know the secret language of the druids. You always have the Speak with animals spell prepared. Everyone who knows druidic can spot hidden messages you leave behind, others can only spot it with a DC15 INT check but can't unscramble it without using magic",
       "feature_data": []
+     },
+     {
+      "name": "Primal order",
+      "desc": "You can choose one of the following sacred roles",
+      "feature_data": [
+       {
+        "name": "Magician",
+        "desc": "You learn an extra cantrip from the druid spell list, and get your WIS modifier as bonus on INT checks (arcana or nature)"
+       },
+       {
+        "name": "Warden",
+        "desc": "You gain proficiency with martial weapons and are trained for heavy armor"
+       }
+      ]
      }
     ],
     "class_specific": [
@@ -73,9 +117,39 @@
     "prof_bonus": "+2",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Wild companion",
+      "desc": "Using a magic action or by expending a wild shape use, you can cast Find familiar. when you finish a long rest the familiar disappears.",
       "feature_data": []
+     },
+     {
+      "name": "Wild shape",
+      "desc": "Using a bonus action, you can transform into an animal form you have learned for this feature. this last for half your druid level hours (level 3 would be 1.5 hours) or until you get incapacitated/die. you can also use a bonus action to end wild shape",
+      "feature_data": [
+       {
+        "name": "Number of uses",
+        "desc": "Check the table to see how many times per long rest you can use wild shape with your current character level."
+       },
+       {
+        "name": "Known forms",
+        "desc": "You know a number of beast forms (4 at level 2 (no flying creatures), 6 at level 4 (no flying creatures) and 8 at level 8 (flyig creatures allowed)). When doing a long rest you can replace one of your known wild shapes"
+       },
+       {
+        "name": "While transformed",
+        "desc": "While in wild shape, you keep your personality, memories, and ability to speak"
+       },
+       {
+        "name": "Temporary hit points",
+        "desc": "You gain temporary hit points equal to your characters level when in wild shape"
+       },
+       {
+        "name": "Statistics",
+        "desc": "While in wild shape, your statistics are changed by the beast's stat block. You keep your creature type, hit points, hit point die, your INT, WIS, and CHA scores, class features, languages, feats and your skill & saving throw proficiencies unless the skill & saving throw proficiency is higher on the beast statistics."
+       },
+       {
+        "name": "Spellcasting",
+        "desc": "While in wild shape you cannot cast spells. Wild shape does not break your concentration for previously casted spells though"
+       }
+      ]
      }
     ],
     "class_specific": [
@@ -112,8 +186,8 @@
     "prof_bonus": "+2",
     "features": [
      {
-      "name": "Barbarian Subclass",
-      "desc": "Gain a subclass for your barbarian character",
+      "name": "Druid Subclass",
+      "desc": "Gain a subclass for your druid character",
       "feature_data": []
      }
     ],
@@ -190,8 +264,8 @@
     "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Wild resurenge",
+      "desc": "Once per turn, when you are out of wild shape slots, you can expend one spell slot to give yourself an extra wild shape slot. this also works in reverse, but only once per long rest.",
       "feature_data": []
      }
     ],
@@ -229,8 +303,8 @@
     "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
       "feature_data": []
      }
     ],
@@ -268,9 +342,18 @@
     "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
-      "feature_data": []
+      "name": "Elemental fury",
+      "desc": "You gain one of the following benefits:",
+      "feature_data": [
+       {
+        "name": "Potent spellcasting",
+        "desc": "You can add your WIS modifier to the damage dealt by any druid cantrip"
+       },
+       {
+        "name": "Primal strike",
+        "desc": "On each turn in wild shape, when hitting a creature with a weapon or a beast form attack you can give the creature an extra 1d8 damage of one of these types: cold, fire, lightning or thunder"
+       }
+      ]
      }
     ],
     "class_specific": [
@@ -307,8 +390,8 @@
     "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
@@ -346,8 +429,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "You don't get any additional features",
+      "desc": "read the title",
       "feature_data": []
      }
     ],
@@ -385,8 +468,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
       "feature_data": []
      }
     ],
@@ -424,8 +507,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "You don't get any additional features",
+      "desc": "read the title",
       "feature_data": []
      }
     ],
@@ -463,8 +546,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
@@ -502,8 +585,8 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "You don't get any additional features",
+      "desc": "read the title",
       "feature_data": []
      }
     ],
@@ -541,8 +624,8 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
       "feature_data": []
      }
     ],
@@ -580,9 +663,18 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
-      "feature_data": []
+      "name": "Improved elemental fury",
+      "desc": "You improve your previously chosen benefit:",
+      "feature_data": [
+       {
+        "name": "Potent spellcasting",
+        "desc": "When casting a cantrip with a range greater than 10ft, the range increases to 300ft"
+       },
+       {
+        "name": "Primal strike",
+        "desc": "The extra damage increases to 2d8"
+       }
+      ]
      }
     ],
     "class_specific": [
@@ -619,8 +711,8 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
       "feature_data": []
      }
     ],
@@ -658,8 +750,8 @@
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "You don't get any additional features",
+      "desc": "read the title",
       "feature_data": []
      }
     ],
@@ -697,8 +789,8 @@
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Beast spells",
+      "desc": "You can now cast spells that dont use a material component while in wild shape.",
       "feature_data": []
      }
     ],
@@ -736,8 +828,8 @@
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Epic boon",
+      "desc": "You gain an Epic Boon feat or another feat you qualify for.",
       "feature_data": []
      }
     ],
@@ -775,9 +867,22 @@
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
-      "feature_data": []
+      "name": "Archdruid",
+      "desc": "You gain one of the following benefits:",
+      "feature_data": [
+       {
+        "name": "Evergreen wild shape",
+        "desc": "When you're out of wild shape uses, and you roll for initiative, you automatically gain one expended use"
+       },
+       {
+        "name": "Nature Magician",
+        "desc": "Without using an action, you can convert one wild shape slot into a spell slot. Each wild shape slot converts to 2 levels on a spell slot (so exchanging 4 wild shape slots grants you a level 8 spell slot). use once per long rest."
+       },
+       {
+        "name": "Longevity",
+        "desc": "You dont age a lot. for every 10 years that pass your body only ages a single year"
+       }
+      ]
      }
     ],
     "class_specific": [
