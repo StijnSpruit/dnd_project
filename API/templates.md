@@ -351,8 +351,8 @@ empty class template:
     "prof_bonus": "+",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Epic boon",
+      "desc": "You gain an Epic Boon feat or another feat you qualify for.",
       "feature_data": []
      }
     ],
@@ -375,7 +375,7 @@ empty class template:
 }
 ```
 empty subclass json (same file as class)
-```
+```json
 "subclasses": [
   {
    "name": "",
