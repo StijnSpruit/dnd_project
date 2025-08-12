@@ -35,7 +35,7 @@
     "features": [
      {
       "name": "Spellcasting",
-      "desc": "You know how to cast spells by praying. You can use spells on the druid spell list",
+      "desc": "You know how to cast spells. You can use spells on the druid spell list",
       "feature_data": [
        {
         "name": "Cantrips",
@@ -915,5 +915,337 @@
     ]
    }
   ]
- }
+ },
+ "subclasses": [
+  {
+   "name": "Circle of the land",
+   "identifier": "land",
+   "subclass_of": "druid",
+   "desc": "You meet in sacred tree circles or stone circles to whisper primal secrets in druidic",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Circle of the land spells",
+       "desc": "After finishing a long rest, choose one of the types of land: arid, polar, temperate or tropical. You know the following spells at each level:",
+       "feature_data": [
+        {
+         "name": "Arid land",
+         "desc": "At level 3: Blur, Burning hands, Fire bolt.\nAt level 5: Fireball.\nAt level 7: Blight.\nAt level 9: Wall of stone."
+        },
+        {
+         "name": "Polar land",
+         "desc": "At level 3: Fog cloud, Hold person, Ray of frost.\nAt level 5: Sleet storm.\nAt level 7: Ice storm.\nAt level 9: Cone of cold."
+        },
+        {
+         "name": "Temperate land",
+         "desc": "At level 3: Misty step, Shocking grasp, Sleep.\nAt level 5: Lightning bolt.\nAt level 7: Freedom of movement.\nAt level 9: Tree Stride."
+        },
+        {
+         "name": "Tropical land",
+         "desc": "At level 3: Acid splash, Ray of sickness, Web.\nAt level 5: Stinking cloud.\nAt level 7: Polymorph.\nAt level 9: Insect plague."
+        }
+       ]
+      },
+      {
+       "name": "Land's aid",
+       "desc": "Using a magic action, you can expend one wild shape use and grow a 10ft radius sphere of vitality-granting flowers and deadly thorns from a point within 60ft of you. one creature in that range has to make a saving throw taking 2d6 Necrotic damage on fail and half of that on succes. Another creature in that range regains 2d6 of hit points. the damage and healing increase by 1d6 at levels 10 and 14.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Natural recovery",
+       "desc": "Once per long rest, you can cast one level 1+ spell from your circle spells without using a spell slot. After a short rest, you can choose expended spell slots to recover as well. The spell slots can have a combined level of half your character's level (so a level 6 druid can recover a level 2 and level 1 slot, or one level 3 slot.) and can never be of level 6+. Once you use this, you cant do so again until you finish a long rest.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "Nature's ward",
+       "desc": "you're immune to the poison condition and are resistant to one damage type associated with your land choice:\nArid: Fire\nPolar: Cold\nTemperate: Lightning\nTropical: Poison",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Nature's sanctuary",
+       "desc": "Using a magic action, you can expend one wild shape use and grow spectral trees and vines in a 15ft cube within a 120ft range of you. it lasts for 1 minute or until you're incapacitated or dead. All allies have half cover in that area and gain resistance to the same damage as your nature's ward. Using a bonus action you can move the cube 60ft within 120ft of you.",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Circle of the moon",
+   "identifier": "moon",
+   "subclass_of": "druid",
+   "desc": "You use magic of the moon to transform",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Circle of the moon spells",
+       "desc": "You always have these spells prepared:",
+       "feature_data": [
+        {
+         "name": "level 3",
+         "desc": "You know the spells: Cure wounds, Moonbeam, Starry wisp"
+        },
+        {
+         "name": "level 5",
+         "desc": "You know the spells: Conjure animals"
+        },
+        {
+         "name": "level 7",
+         "desc": "You know the spells: Fount of moonlight"
+        },
+        {
+         "name": "level 9",
+         "desc": "You know the spells: Mass cure wounds"
+        }
+       ]
+      },
+      {
+       "name": "Circle forms",
+       "desc": "You can use the moons magic when in wild shape, which gives you the following benefits",
+       "feature_data": [
+        {
+         "name": "Armor class",
+         "desc": "Until wildshape ends, you have an AC of 13 + your WIS modifier when that AC is higher than the beast's AC"
+        },
+        {
+         "name": "Temporary hit points",
+         "desc": "You gain temporary hit points equal to triple your characters level when in wild shape"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Improved circle forms",
+       "desc": "You gain one of the following benefits:",
+       "feature_data": [
+        {
+         "name": "Lunar radiance",
+         "desc": "Each of your wild shape attacks deals normal damage or radiance damage (choose when you hit the attack)"
+        },
+        {
+         "name": "Increased toughness",
+         "desc": "you can add your WIS modifier to CON saving throws."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "Moonlight step",
+       "desc": "Using a bonus action, you can teleport up to 30ft to a spot you can see. you have advantage on the next attack roll you make on that turn. use this an amount of times equal to your WIS modifier. when doing a long rest or using a level 2+ spell slot you regain expended uses",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Lunar form",
+       "desc": "The magic of the moon grants you these benefits:",
+       "feature_data": [
+        {
+         "name": "Improved lunar radiance",
+         "desc": "Once per turn you can give a creature an extra 2d10 radiant damage when doing a wild shape attack"
+        },
+        {
+         "name": "Shared moonlight",
+         "desc": "When you use moonlight step you can take one crature within 10ft of you with you"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Circle of the sea",
+   "identifier": "sea",
+   "subclass_of": "druid",
+   "desc": "You draw magic from seas and storms",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Circle of the sea spells",
+       "desc": "You always have these spells prepared:",
+       "feature_data": [
+        {
+         "name": "level 3",
+         "desc": "You know the spells: Fog cloud, Gust of wind, Ray of frost, Shatter, Thunderwave"
+        },
+        {
+         "name": "level 5",
+         "desc": "You know the spells: Lightning bolt, Water breathing"
+        },
+        {
+         "name": "level 7",
+         "desc": "You know the spells: Control water, Ice storm"
+        },
+        {
+         "name": "level 9",
+         "desc": "You know the spells: Conjure elemental, Hold monster"
+        }
+       ]
+      },
+      {
+       "name": "Wrath of the sea",
+       "desc": "Using a bonus action, you can expend a wild shape to create a 5ft area of ocean water spray around you for 10 minutes. On the next turn you can use a bonus action to force a creature to make a CON saving throw. on a fail they take damage equal to an amount of d6's the same as your WIS modifier. if the creature is large or smaller they also get pushed up to 15ft away from you",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Aquatic affinity",
+       "desc": "The range of wrath of the sea extends to 15ft. You gain a swim speed equal to your speed.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "Stormborn",
+       "desc": "Wrath of the sea gains 2 benefits:",
+       "feature_data": [
+        {
+         "name": "Flight",
+         "desc": "You gain a flight speed equal to your speed"
+        },
+        {
+         "name": "Resistance",
+         "desc": "You're resistent to Cold, Lightning and Thunder damage."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Oceanic gift",
+       "desc": "You can give wrath of the sea to a willing creature within a 60ft range instead of yourself. it still uses your spell save DC and WIS modifier. You can also use 2 wild shapes to get wrath of the sea around yourself AND the other creature",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Circle of the stars",
+   "identifier": "stars",
+   "subclass_of": "druid",
+   "desc": "You use magic of the stars",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Star map",
+       "desc": "You have your own star map, which can be a scroll, stone tablet, owlbear hide, a collection of maps, a crystal or a glass disc. you can use this map as spellcasting focus. While holding the map you have Guidance and Guiding bolt prepared, and you can cast Guiding bolt without using a spell slot (use an amount of times equal to your WIS modifier). You regain uses after a long rest",
+       "feature_data": []
+      },
+      {
+       "name": "Starry form",
+       "desc": "Using a bonus action, you can expend a wild shape to become a starry form. While in this form you keep your statistics, but your body emits Bright light in a 10ft radius and dim light for 10 more ft. It ends when you dismiss it or when you're incapacitated. Whenever you enter starry form you can choose one of the following constellations:",
+       "feature_data": [
+        {
+         "name": "Archer",
+         "desc": "An archer appears behind you. Using a bonus action you can make a ranged spell attack, sending a light emitting arrow towards a target within 60ft of you. on a hit it deals 1d8 + WIS radiant damage."
+        },
+        {
+         "name": "Chalice",
+         "desc": "a life granting goblet appears on you. Healing spells using a spell slot will heal another creature within 30ft of you of an amount equal to 1d8 + WIS"
+        },
+        {
+         "name": "Dragon",
+         "desc": "A wise dragon appears behind you. When making an INT or WIS check for concentration, you can make all rolls that are 9 or lower a 10."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Cosmic omen",
+       "desc": "You can roll a d6 after finishing a long rest. depending on wether the rolled value is odd or even you gain the following reaction:",
+       "feature_data": [
+        {
+         "name": "Weal (even)",
+         "desc": "Whenever a creature in a range of 30ft makes a d20 test you can take a reaction to add 1d6 to the value of the roll."
+        },
+        {
+         "name": "Woe (odd)",
+         "desc": "Whenever a creature in a range of 30ft makes a d20 test you can take a reaction to remove 1d6 of the value of the roll."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "10th",
+     "features": [
+      {
+       "name": "Twinkling coonstellations",
+       "desc": "Benefits improve:",
+       "feature_data": [
+        {
+         "name": "Archer and  Chalice",
+         "desc": "the 1d8 becomes 2d8"
+        },
+        {
+         "name": "Dragon",
+         "desc": "You have a flight speed of 20ft and you can hover"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "14th",
+     "features": [
+      {
+       "name": "Full of stars",
+       "desc": "While in starry form you're resistant to bludgeoning piercing and slashing damage",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }

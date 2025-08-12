@@ -1,0 +1,270 @@
+{
+ "class": {
+  "name": "Fighter",
+  "identifier": "fighter",
+  "desc": "You are proficient with many weapons",
+  "hit_die": "d10",
+  "lvl_1_hitpoint": "10 + CON modifier",
+  "hitpoint_per_level": "d10 + CON modifier or 6 + CON modifier",
+  "primary_ability": "STR or DEX",
+  "saving_throw_prof": "STR and CON",
+  "skill_prof": [
+   "History",
+   "Insight",
+   "Perception",
+   "Persuasion",
+   "Survival"
+  ],
+  "weapon_prof": [
+   "Simple weapons"
+  ],
+  "tool_prof": [],
+  "armor_training": [
+   "light armor",
+   "medium armor",
+   "shields"
+  ],
+  "levels": [
+   {
+    "level": "1st",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "2nd",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "3rd",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Barbarian Subclass",
+      "desc": "Gain a subclass for your barbarian character",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "4th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "5th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "6th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "7th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "8th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "9th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "10th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "11th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "12th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "13th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "14th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "15th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "16th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "17th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "18th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "19th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "Epic boon",
+      "desc": "You gain an Epic Boon feat or another feat you qualify for.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   },
+   {
+    "level": "20th",
+    "prof_bonus": "+",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": []
+   }
+  ]
+ }
+}
