@@ -601,5 +601,284 @@
     ]
    }
   ]
- }
+ },
+ "subclasses": [
+  {
+   "name": "Warrior of the elements",
+   "identifier": "elements",
+   "subclass_of": "monk",
+   "desc": "You get powers from the elemental planes",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Elemental attunement",
+       "desc": "On your turn you can expend a focus point to give yourself elemental energy for 10 minutes or until incapacitated. you gain these benefits:",
+       "feature_data": [
+        {
+         "name": "Reach",
+         "desc": "The range of your unarmed strikes is 10ft more than usual"
+        },
+        {
+         "name": "Elemental strikes",
+         "desc": "When attacking a creature with an unarmed strike and hitting it, you can choose to deal acid, cold, fire, lightning, thunder damage. You also force the creature to make a STR saving throw. on a fail you can move the creature 10ft towards or away from you."
+        }
+       ]
+      },
+      {
+       "name": "Manipulate elements",
+       "desc": "You learn the Elementalism spell and use WIS as spellcasting ability for it",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Elemental burst",
+       "desc": "Using a magic action you can expend 2 focus points to summon a burst of elements in a 20ft radius sphere on a spot within a range of 120ft of you. It will deal one of these damage types: acid, cold, fire, lightning or thunder. Creatures in this sphere must make a DEX saving throw. On fail they take damage of the chosen type with the value of 3 martial art die rolls, on success half of that",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "11th",
+     "features": [
+      {
+       "name": "Stride of the elements",
+       "desc": "While you are in elemental attunement, you have a fly and swim speed equal to your speed",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "17th",
+     "features": [
+      {
+       "name": "Elemental epitome",
+       "desc": "While you are in elemental attunement, you have these benefits:",
+       "feature_data": [
+        {
+         "name": "Damage resistance",
+         "desc": "You are resistent to one of these damage types: acid, cold, fire, lightning or thunder. choose at the start of your turn."
+        },
+        {
+         "name": "Destructive stride",
+         "desc": "When using step of the wind, your speed increases with 20ft until the end of your turn. During that time you can choose any creature to deal damage (1 roll of martial arts die) of one of the following types when within 5ft: acid, cold, fire, lightning or thunder"
+        },
+        {
+         "name": "Empower strikes",
+         "desc": "Once per turn you can deal extra damage equal to 1 roll of your martial arts die when you hit a creatire with an unarmed strike."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Warrior of mercy",
+   "identifier": "mercy",
+   "subclass_of": "monk",
+   "desc": "you manipulate life force of others",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Hand of harm",
+       "desc": "Once per turn when attacking a creature with an unarmed strike and hitting it, you can expend a focus point to deal extra necrotic damage equal to a roll of your martial art die + WIS modifier",
+       "feature_data": []
+      },
+      {
+       "name": "Hand of healing",
+       "desc": "Using a magic action you can expend 1 focus point and restore an amount of hit points equal to your rolled martial art die + WIS modifier",
+       "feature_data": []
+      },
+      {
+       "name": "Implements of mercy",
+       "desc": "You're proficient in Insight and Medicine skills and proficient with the Herbalism kit",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Physician's touch",
+       "desc": "Your hand of harm/healing improve:",
+       "feature_data": [
+        {
+         "name": "Hand of harm",
+         "desc": "You now give the poisoned condition to the creature until the next turn"
+        },
+        {
+         "name": "Hand of healing",
+         "desc": "You can end these conditions when using hand of healing: Blinded, deafened, paralised, poisoned or stunned"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "11th",
+     "features": [
+      {
+       "name": "Flurry of healing and harm",
+       "desc": "When attacking a creature with flurry of blows you can replace an attack with hand of healing or hand of harm without expending points. use an amount of times equal to your WIS modifier and regain uses after a long rest",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "17th",
+     "features": [
+      {
+       "name": "Hand of ultimate mercy",
+       "desc": "Using a magic action you can touch the corpse of a dead creature and bring it back for a day  by expending 5 focus points. it'll have hit points equal to 4d10 + WIS modifier. Conditions like blinded deafened paralised poisoned or stunned will be removed. Use once per long rest.",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Warrior of the open hand",
+   "identifier": "open",
+   "subclass_of": "monk",
+   "desc": "You are master of unarmed combat",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Open hand technique",
+       "desc": "You can give a creature one of these effects when making an attack with flurry of blows",
+       "feature_data": [
+        {
+         "name": "Addle",
+         "desc": "The targeted creature is unable to do opportunity attacks until next turn"
+        },
+        {
+         "name": "Push",
+         "desc": "Force the targeted creature to make a STR saving throw. on fail it'll be pushed 15ft away from you"
+        },
+        {
+         "name": "Topple",
+         "desc": "Force the targeted creature to make a DEX saving throw. on fail it'll be pushed proned"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Wholeness of body",
+       "desc": "Using a bonus action, you can roll a martial arts die and regain that amount of hit points + WIS modifier. you can use this an amount of times equal to your WIS modifier and regain uses after doing a long rest.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "11th",
+     "features": [
+      {
+       "name": "Fleet step",
+       "desc": "Using a bonus action that's not step of the wind, you can use step of the wind immediately after that bonus action.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "17th",
+     "features": [
+      {
+       "name": "Quivering palm",
+       "desc": "When attacking a creature with an unarmed strike and hitting it, you can use 4 focus points tosend lethal vibrations through the targeted creature. the vibrations last for a number of DAYS equal to your monk level. These vibrations are harmless, unless you use an action to end them. You can also take the attack action on your turn and use one of the attacks to end the vibrations (you must be on the same plane of existence). When the vibrations end, the targeted creature must make a CON saving throw. on a fail it'll take 10d12 of force damage or half of that on a success",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Warrior of shadow",
+   "identifier": "shadow",
+   "subclass_of": "monk",
+   "desc": "You master stealth and harness ",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Shadow arts",
+       "desc": "you gain these benefits:",
+       "feature_data": [
+        {
+         "name": "Darkness",
+         "desc": "You can expend a focus point to cast darkness without spell components. you can see within this darkness and you can move the area of darkness within 6oft of you on the start of each turn."
+        },
+        {
+         "name": "Darkvision",
+         "desc": "You are able to see clearly in dim light up to 60 ft as if it were bright, and in total darkness as if it were dim. However, you can only see shades of gray in darkness, not colors. if you already have darkvision the range extends by 60ft."
+        },
+        {
+         "name": "Shadowy figments",
+         "desc": "You know the minor illusion spell and use WIS as spellcasting ability for it"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": "6th",
+     "features": [
+      {
+       "name": "Shadow step",
+       "desc": "When in dim light or darkness you can teleport up to 60ft to another spot thats dim light or darkness using a bonus action. You also have advantage on the next melee attack you make before the end of your turn.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "11th",
+     "features": [
+      {
+       "name": "Improved shadow step",
+       "desc": "You can expend a focus point to remove the requirement of dim light/darkness when using shadow step. you can make an unarmed strike directly after teleporting as part of this bonus action.",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "17th",
+     "features": [
+      {
+       "name": "Cloak of shadows",
+       "desc": "Using a magic action you can expend 3 focus points to surround yourself in shadows for a minute while in dim light/darkness. this grants you these benefits:",
+       "feature_data": [
+        {
+         "name": "Invisibility",
+         "desc": "You're invisible"
+        },
+        {
+         "name": "Partially incorporeal",
+         "desc": "You can move through occupied spaces as if they're difficult terrain (every 1ft of difficult terrain is 2ft of normal movement). when this condition ends in such position you will move back to the last unoccupied spot you were in."
+        },
+        {
+         "name": "Shadow furry",
+         "desc": "You use no focus points when using flurry of blows"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }

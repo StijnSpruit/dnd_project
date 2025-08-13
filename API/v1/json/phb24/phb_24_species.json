@@ -460,47 +460,6 @@
     }
    ]
   }
- ],
- "classes": [
-  {
-   "name": "Barbarian",
-   "desc": "rage and shit",
-   "hit_die": "d12",
-   "lvl_1_hitpoint": "12 + CON modifier",
-   "hitpoint_per_level": "1d12 + CON modifier or 7 + CON modifier",
-   "saving_throw_prof": "STR and CON",
-   "levels": [
-    {
-     "level": "1st",
-     "prof_bonus": "+2",
-     "features": [
-      {
-       "name": "Rage",
-       "desc": "Using a bonus action, you can enter Rage. Rage is a primal power that makes you powerful"
-      },
-      {
-       "name": "Unarmored Defense"
-      },
-      {
-       "name": "Weapon Mastery"
-      }
-     ],
-     "class_specific": [
-      {
-       "name": "Rages",
-       "value": "2"
-      },
-      {
-       "name": "Rage Damage",
-       "value": "+2"
-      },
-      {
-       "name": "Weapon Mastery",
-       "value": "2"
-      }
-     ]
-    }
-   ]
-  }
  ]
 }
+ 

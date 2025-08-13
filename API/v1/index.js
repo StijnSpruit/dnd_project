@@ -55,6 +55,10 @@ const phb24 = {
   {
    identifier: "fighter",
    content: require('./json/phb24/classes/phb_24_fighter.json').subclasses
+  },
+  {
+   identifier: "monk",
+   content: require('./json/phb24/classes/phb_24_monk.json').subclasses
   }
  ]
 };
