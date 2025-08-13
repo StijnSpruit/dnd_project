@@ -10,6 +10,7 @@ const erlw = {
     species: "replace me with require(json file with species and subspecies).species",
     subspecies:  "replace me with require(json file with species and subspecies).subspecies"
 };
+const phb24 = {}
 
 const BOOKS = [
     { name: "Acquisitions Incorporated", url: "https://www.dndbeyond.com/sources/ai", content: {}, shortname: "ai" },
@@ -19,7 +20,7 @@ const BOOKS = [
     { name: "Curse of Strahd", url: "https://www.dndbeyond.com/sources/cos", content: {}, shortname: "cos" },
     { name: "Dragon of Icespire Peak", url: "https://www.dndbeyond.com/sources/doip", content: {}, shortname: "doip" },
     { name: "Dungeon Master's Guide", url: "https://www.dndbeyond.com/sources/dmg", content: {}, shortname: "dmg" },
-    { name: "Eberron: Rising from the Last War", url: "https://www.dndbeyond.com/sources/erlw", content: {}, shortname: "erlw" },
+    { name: "Eberron: Rising from the Last War", url: "https://www.dndbeyond.com/sources/erlw", content: erlw, shortname: "erlw" },
     { name: "Essentials Kit", url: "https://www.dndbeyond.com/sources/essentials", content: {}, shortname: "essentials" },
     { name: "Explorer's Guide to Wildemount", url: "https://www.dndbeyond.com/sources/egw", content: {}, shortname: "egw" },
     { name: "Ghosts of Saltmarsh", url: "https://www.dndbeyond.com/sources/gos", content: {}, shortname: "gos" },
