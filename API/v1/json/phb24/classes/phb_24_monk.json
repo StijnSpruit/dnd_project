@@ -1,0 +1,605 @@
+{
+ "class": {
+  "name": "Monk",
+  "identifier": "monk",
+  "desc": "You fight with bare hands",
+  "hit_die": "d8",
+  "lvl_1_hitpoint": "d8 + CON modifier",
+  "hitpoint_per_level": "d8 + CON modifier or 5 + CON modifier",
+  "primary_ability": "DEX and WIS",
+  "saving_throw_prof": "STR and DEX",
+  "skill_prof": [
+   "History",
+   "Insight",
+   "Religion",
+   "Stealth",
+   "Acrobatics",
+   "Athletics"
+  ],
+  "weapon_prof": [
+   "Simple weapons",
+   "Light martial weapons"
+  ],
+  "tool_prof": [
+   "Artisan tools",
+   "Musical instrument"
+  ],
+  "armor_training": [],
+  "levels": [
+   {
+    "level": "1st",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Martial arts",
+      "desc": "You master combat styles that use unarmed strike and monk weapons, which gives you these benefits when unarmored and unshielded:",
+      "feature_data": [
+       {
+        "name": "Bonus unarmed strike",
+        "desc": "Using a bonus action, you can make an extra unarmed strike."
+       },
+       {
+        "name": "Martial arts die",
+        "desc": "Instead of using your normal damage for an unarmed strike or monk weapon, you can use this die (1d6)"
+       },
+       {
+        "name": "Dexterous attacks",
+        "desc": "Use your DEX modifier instead of STR modifier for attack/damage rolls with unarmed strikes or monk weapons. When using the grapple or shove options, you can use your DEX for the save DC as well."
+       }
+      ]
+     },
+     {
+      "name": "Unarmored defense",
+      "desc": "While unarmored/unshielded, your base AC = 10 + DEX modifier + WIS modifier",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d6"
+     },
+     {
+      "name": "Focus points",
+      "value": "-"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "-"
+     }
+    ]
+   },
+   {
+    "level": "2nd",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Monks focus",
+      "desc": "You harness energy represented by focus points. You can use these points for the following features:",
+      "feature_data": [
+       {
+        "name": "Flurry of blows",
+        "desc": "Using a focus point and a bonus action, you can make two extra unarmed strikes."
+       },
+       {
+        "name": "Patient defense",
+        "desc": "Using a bonus action, you can take the disengage action. You can also spend one focus point to take both the disengage and dash actions."
+       },
+       {
+        "name": "Step of the wind",
+        "desc": "Using a bonus action, you can take the disengage action. You can also spend one focus point to take both the disengage and dash actions. Your jump distance is doubled for the turn."
+       }
+      ]
+     },
+     {
+      "name": "Unarmored movement",
+      "desc": "While unarmored/unshielded, your speed increases. see the table to see how many ft of extra movement you gain",
+      "feature_data": []
+     },
+     {
+      "name": "Uncanny metabolism",
+      "desc": "When rolling for initiative you regain all expended focus points and gain an amount of hit points equal to the value of your martial arts die (after you rolled it, of course). Use once per long rest.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d6"
+     },
+     {
+      "name": "Focus points",
+      "value": "2"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+10ft"
+     }
+    ]
+   },
+   {
+    "level": "3rd",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Monk Subclass",
+      "desc": "Gain a subclass for your monk character",
+      "feature_data": []
+     },
+     {
+      "name": "Deflect attacks",
+      "desc": "Any attack that hits you that gives bludgeoning, piercing or slashing damage, you can reduce in damage by taking a reaction. The reduction is 1d10 + DEX modifier. If you reduce damage to 0, you can choose to expend a focus point and reflect the attack force to a creature within 5ft if it was a melee attack and 60ft if it was a ranged attack. The target must succeed on a DEX saving throw or take damage equal to twice your martial arts die (rolled) + DEX modifier",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d6"
+     },
+     {
+      "name": "Focus points",
+      "value": "3"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+10ft"
+     }
+    ]
+   },
+   {
+    "level": "4th",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d6"
+     },
+     {
+      "name": "Focus points",
+      "value": "4"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+10ft"
+     }
+    ]
+   },
+   {
+    "level": "5th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Slow fall",
+      "desc": "When you fall, take a reaction to reduce the fall damage by 5x your monk level",
+      "feature_data": []
+     },
+     {
+      "name": "Extra attack",
+      "desc": "You can attack twice when taking an attack action",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d8"
+     },
+     {
+      "name": "Focus points",
+      "value": "5"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+10ft"
+     }
+    ]
+   },
+   {
+    "level": "6th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Empowered strikes",
+      "desc": "When dealing damage with your unarmed strike, it can deal force damage or normal damage.",
+      "feature_data": []
+     },
+     {
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d8"
+     },
+     {
+      "name": "Focus points",
+      "value": "6"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+15ft"
+     }
+    ]
+   },
+   {
+    "level": "7th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Evasion",
+      "desc": "When you have to make a DEX saving throw for something to take only half damage, you take no damage on success, and half damage on a fail. Does not work when incapacitated.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d8"
+     },
+     {
+      "name": "Focus points",
+      "value": "7"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+15ft"
+     }
+    ]
+   },
+   {
+    "level": "8th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d8"
+     },
+     {
+      "name": "Focus points",
+      "value": "8"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+15ft"
+     }
+    ]
+   },
+   {
+    "level": "9th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Acrobatic movement",
+      "desc": "While unarmored/unshielded, you can move along vertical surfaces and across liquids without falling",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d8"
+     },
+     {
+      "name": "Focus points",
+      "value": "9"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+15ft"
+     }
+    ]
+   },
+   {
+    "level": "10th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Hightened focus",
+      "desc": "You improve these features:",
+      "feature_data": [
+       {
+        "name": "Flurry of blows",
+        "desc": "Using a focus point and a bonus action, you can make three extra unarmed strikes."
+       },
+       {
+        "name": "Patient defense",
+        "desc": "When you expend a focus point you gain temporary hit points equal to two rolls of your martial arts die"
+       },
+       {
+        "name": "Step of the wind",
+        "desc": "When you expend a focus point you can take a willing creature within 5ft of you with you until the end of your turn. this does not cause an opportunity attack."
+       }
+      ]
+     },
+     {
+      "name": "Self restoration",
+      "desc": "On each turn you can remove one of these conditions: charmed, frightened or poisoned",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d8"
+     },
+     {
+      "name": "Focus points",
+      "value": "10"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+20ft"
+     }
+    ]
+   },
+   {
+    "level": "11th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d10"
+     },
+     {
+      "name": "Focus points",
+      "value": "11"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+20ft"
+     }
+    ]
+   },
+   {
+    "level": "12th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d10"
+     },
+     {
+      "name": "Focus points",
+      "value": "12"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+20ft"
+     }
+    ]
+   },
+   {
+    "level": "13th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Deflect energy",
+      "desc": "Deflect attacks now also works against any other type of attack",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d10"
+     },
+     {
+      "name": "Focus points",
+      "value": "13"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+20ft"
+     }
+    ]
+   },
+   {
+    "level": "14th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Disciplined survivor",
+      "desc": "You have proficiency for all saving throws and can use a focus point to reroll failed rolls.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d10"
+     },
+     {
+      "name": "Focus points",
+      "value": "14"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+25ft"
+     }
+    ]
+   },
+   {
+    "level": "15th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Perfect focus",
+      "desc": "When rolling for initiative and not using uncanny metabolism, you regain focus points until you have 4 if you have 3 or lower",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d10"
+     },
+     {
+      "name": "Focus points",
+      "value": "15"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+25ft"
+     }
+    ]
+   },
+   {
+    "level": "16th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d10"
+     },
+     {
+      "name": "Focus points",
+      "value": "16"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+25ft"
+     }
+    ]
+   },
+   {
+    "level": "17th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d12"
+     },
+     {
+      "name": "Focus points",
+      "value": "17"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+25ft"
+     }
+    ]
+   },
+   {
+    "level": "18th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Superior defense",
+      "desc": "You cna become immune to all damage except force damage by expending 3 focus points at the start of your turn. lasts for 1 minute or until you are incapacitated",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d12"
+     },
+     {
+      "name": "Focus points",
+      "value": "18"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+30ft"
+     }
+    ]
+   },
+   {
+    "level": "19th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Epic boon",
+      "desc": "You gain an Epic Boon feat or another feat you qualify for.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d12"
+     },
+     {
+      "name": "Focus points",
+      "value": "19"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+30ft"
+     }
+    ]
+   },
+   {
+    "level": "20th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Body and mind",
+      "desc": "Your DEX and WIS scores increase by 4 to a max of 25.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "Martial arts",
+      "value": "1d12"
+     },
+     {
+      "name": "Focus points",
+      "value": "20"
+     },
+     {
+      "name": "Unarmored movement",
+      "value": "+30ft"
+     }
+    ]
+   }
+  ]
+ }
+}
