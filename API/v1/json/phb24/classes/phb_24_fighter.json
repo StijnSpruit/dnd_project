@@ -576,24 +576,20 @@
          "desc": "Using a bonus action, you can expend one superiority die to give an ally within 30ft of you that can see/hear you an amount of temporary hit points equal to the roll value + half your fighter level (rounded down, level 3 would be 1 added to the roll.)"
         },
         {
-         "name": "",
-         "desc": ""
+         "name": "Riposte",
+         "desc": "When another creature misses you with a melee attack roll, you can use a reaction to expend a superiority die to make an attack to that creature. when you hit you can add the rolled value to the damage."
         },
         {
-         "name": "",
-         "desc": ""
+         "name": "Sweeping attack",
+         "desc": "When doing an attack on a creature and hitting it, use one of your superiority die to damage another creature of choice within 5ft to deal the rolled value (of your superiority die) of damage"
         },
         {
-         "name": "",
-         "desc": ""
+         "name": "Tactical assessment",
+         "desc": "When making an INT (history, investigation) or WIS (insight) check you can expend one superiority die and add the rolled value to your check roll."
         },
         {
-         "name": "",
-         "desc": ""
-        },
-        {
-         "name": "",
-         "desc": ""
+         "name": "Trip attack",
+         "desc": "When doing an attack on a creature and hitting it, use one of your superiority die to make the creature (Large or smaller) prone on a failed STR check. add the rolled value to the damage."
         }
        ]
       }
@@ -603,8 +599,8 @@
      "level": "7th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Know your enemy",
+       "desc": "Using a bonus action, you can learn strengths and weaknesses of a creature you can see within 30ft. use once per long rest (or regain the use with a superiority die)",
        "feature_data": []
       }
      ]
@@ -613,8 +609,8 @@
      "level": "10th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Improved combat superiority",
+       "desc": "The superiority die becomes a d10 instead of a d8",
        "feature_data": []
       }
      ]
@@ -623,8 +619,8 @@
      "level": "15th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Relentless",
+       "desc": "Once per turn when maneuvreing you can roll a d8 instead of a superiority die, so you dont have to expend a superiority die",
        "feature_data": []
       }
      ]
@@ -633,8 +629,8 @@
      "level": "18th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Ultimate combat superiority",
+       "desc": "The superiority die becomes a d12 instead of a d10",
        "feature_data": []
       }
      ]
@@ -642,22 +638,22 @@
    ]
   },
   {
-   "name": "",
-   "identifier": "",
-   "subclass_of": "",
-   "desc": "",
+   "name": "Champion",
+   "identifier": "champion",
+   "subclass_of": "fighter",
+   "desc": "You focus on developing your martial arts for victory",
    "levels": [
     {
      "level": "3rd",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Improved critical",
+       "desc": "Attack rolls made with weapons or an unarmed strike score a critical hit on a 19 or 20 on a d20",
        "feature_data": []
       },
       {
-       "name": "",
-       "desc": "",
+       "name": "Remarkable athlete",
+       "desc": "You have advantage on STR (athletics) checks and can move half your speed away without causing opportunity attacks when you score a critical",
        "feature_data": []
       }
      ]
@@ -666,8 +662,8 @@
      "level": "7th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Additional fighting style",
+       "desc": "You gain a fighting style feat.",
        "feature_data": []
       }
      ]
@@ -676,8 +672,8 @@
      "level": "10th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Heroic warrior",
+       "desc": "You can give yourself heroic inspiration whenever you start your turn without it",
        "feature_data": []
       }
      ]
@@ -686,8 +682,8 @@
      "level": "15th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Superior critical",
+       "desc": "Attack rolls made with weapons or an unarmed strike score a critical hit on a 18 to 20 on a d20",
        "feature_data": []
       }
      ]
@@ -696,31 +692,65 @@
      "level": "18th",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
+       "name": "Survivor",
+       "desc": "You gain these benefits:",
+       "feature_data": [
+        {
+         "name": "Defy death",
+         "desc": "You have advantage on death saving throws, and when you roll a 18-20 you get the advantage of rolling a 20"
+        },
+        {
+         "name": "Heroic rally",
+         "desc": "On the start of your turn, you gain hit points equal to 5 + CON modifier if you have damage and have at least 1 hit point"
+        }
+       ]
       }
      ]
     }
    ]
   },
   {
-   "name": "",
-   "identifier": "",
-   "subclass_of": "",
-   "desc": "",
+   "name": "Eldritch knight",
+   "identifier": "eldritch",
+   "subclass_of": "fighter",
+   "desc": "You learned magic to help you in combat",
    "levels": [
     {
      "level": "3rd",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
+       "name": "Spellcasting",
+       "desc": "You know how to cast spells. You can use spells on the wizard spell list",
+       "feature_data": [
+        {
+         "name": "Cantrips",
+         "desc": "You learn 2 cantrips of your choice from the wizard spell list. This choice can be changed whenever you gain a character level."
+        },
+        {
+         "name": "Spell slots",
+         "desc": "You have limited amounts of spell slots. See your wizard's level class features to see how many you're allowed to have"
+        },
+        {
+         "name": "Prepared spells",
+         "desc": "You prepare a list of spells available to you. See your fighter's level class features to see how many you're allowed to have prepared"
+        },
+        {
+         "name": "Replacing prepared spells",
+         "desc": "When your character level increases, you can change one spell of your spell list with another one with the correct spell slot"
+        },
+        {
+         "name": "Spellcasting ability",
+         "desc": "You use INT as your spellcasting ability"
+        },
+        {
+         "name": "Spellcasting focus",
+         "desc": "you can use arcane focus for spellcasting"
+        }
+       ]
       },
       {
-       "name": "",
-       "desc": "",
+       "name": "War bond",
+       "desc": "you can create a magical bond between you and your weapon. You can do this for 1 hour and once per short rest. You cant be disarmed of this weapon during that period.",
        "feature_data": []
       }
      ]
@@ -729,8 +759,8 @@
      "level": "7th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "War magic",
+       "desc": "Whan doing an attack action, you can replace one of the attacks with a casting of a wizard cantrip.",
        "feature_data": []
       }
      ]
@@ -739,8 +769,8 @@
      "level": "10th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Eldritch strike",
+       "desc": "When doing an attack on a creature and hitting it, the creature will have disadvantage on saving throws against a spell you cast before the end of your next turn.",
        "feature_data": []
       }
      ]
@@ -749,8 +779,8 @@
      "level": "15th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Arcane charge",
+       "desc": "When using Action surge you can teleport up to 30ft to a spot you can see",
        "feature_data": []
       }
      ]
@@ -759,8 +789,8 @@
      "level": "18th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Improved war magic",
+       "desc": "Whan doing an attack action, you can replace two of the attacks with a casting of one wizard lvl 1 spell or level 2 spell.",
        "feature_data": []
       }
      ]
@@ -768,23 +798,61 @@
    ]
   },
   {
-   "name": "",
-   "identifier": "",
-   "subclass_of": "",
-   "desc": "",
+   "name": "Psi warrior",
+   "identifier": "psi",
+   "subclass_of": "fighter",
+   "desc": "you use the power of your mind during combat",
    "levels": [
     {
      "level": "3rd",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
+       "name": "Psionic power",
+       "desc": "You have psionic energy within yourself represented by Psionic energy dice (Energy die) which fuels powers of this subclass. You regain all expended uses after a long rest and a single expended use after a short rest. See your psionic dice per level here:",
+       "feature_data": [
+        {
+         "name": "3rd",
+         "desc": "4d6"
+        },
+        {
+         "name": "5th",
+         "desc": "6d8"
+        },
+        {
+         "name": "9th",
+         "desc": "8d8"
+        },
+        {
+         "name": "11th",
+         "desc": "8d10"
+        },
+        {
+         "name": "13th",
+         "desc": "10d10"
+        },
+        {
+         "name": "17th",
+         "desc": "12d12"
+        }
+       ]
       },
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
+       "name": "Psionic power features",
+       "desc": "the features of psionic power",
+       "feature_data": [
+        {
+         "name": "Protective field",
+         "desc": "When another creature in the range of 30ft takes damage, you can expend one energy die and reduce that damage by the rolled value + your INT modifier"
+        },
+        {
+         "name": "psionic strike",
+         "desc": "Once per turn after hitting a creature within 30ft of you and damaging it with a weapon, you can expend an energy die and add your rolled value + INT modifier to that "
+        },
+        {
+         "name": "Telekinetic movement",
+         "desc": "Using a magic action, you can choose a target within 30ft of you, like a Large or smaller loose object or a willing creature (excluding yourself) and move it in a range of 30ft. if the object is tiny you can also guide it towards your hand. Use once per short or long rest or expend an energy die to regain the use."
+        }
+       ]
       }
      ]
     },
@@ -792,9 +860,18 @@
      "level": "7th",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
+       "name": "Telekinetic adept",
+       "desc": "You know new ways to use your telekinetic powers:",
+       "feature_data": [
+        {
+         "name": "Psi-powered leap",
+         "desc": "Using a bonus action, you get a flight speed equal twice your speed until the end of your turn. Use once per short or long rest or expend one energy die to regain the use."
+        },
+        {
+         "name": "Telekinetic thrust",
+         "desc": "When dealing damage with psionic strike, the target has to make a STR saving throw (DC8 + INT modifier + Proficiency bonus). The target will be transported 10ft horizontally or be proned on a fail."
+        }
+       ]
       }
      ]
     },
@@ -802,8 +879,8 @@
      "level": "10th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Guarded mind",
+       "desc": "You are resistant to psychic damage and can expend an energy die to remove the charmed or frightened condition at the start of your turn.",
        "feature_data": []
       }
      ]
@@ -812,8 +889,8 @@
      "level": "15th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Bulwark of force",
+       "desc": "Using a bonus action you can protect you and others with a shield. you can choose creatures (up to an amount equal to INT modifier) within 30ft of you, including yourself to have half cover for a minute. use once per long rest or by expending an energy die",
        "feature_data": []
       }
      ]
@@ -822,8 +899,8 @@
      "level": "18th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Telekinetic master",
+       "desc": "You always know the telekinesis spell and can cast it without spell slots. your spellcasting ability is INT. While maintaining concentration for the spell you can attack once using a bonus action. Use once per long rest or expend an energy die to regain a use.",
        "feature_data": []
       }
      ]

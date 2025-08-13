@@ -25,6 +25,10 @@ const phb24 = {
   {
    identifier: "druid",
    content: require('./json/phb24/classes/phb_24_druid.json').class
+  },
+  {
+   identifier: "fighter",
+   content: require('./json/phb24/classes/phb_24_fighter.json').class
   }
  ],
  subclasses: [
@@ -43,6 +47,10 @@ const phb24 = {
   {
    identifier: "druid",
    content: require('./json/phb24/classes/phb_24_druid.json').subclasses
+  },
+  {
+   identifier: "fighter",
+   content: require('./json/phb24/classes/phb_24_fighter.json').subclasses
   }
  ]
 };
