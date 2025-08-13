@@ -6,7 +6,10 @@ const port = 3000;
 app.use(cors());
 
 //json imports
-const phb24 = require('./json/phb_24.json');
+const erlw = {
+    species: "replace me with require(json file with species and subspecies).species",
+    subspecies:  "replace me with require(json file with species and subspecies).subspecies"
+};
 
 const BOOKS = [
     { name: "Acquisitions Incorporated", url: "https://www.dndbeyond.com/sources/ai", content: {}, shortname: "ai" },
