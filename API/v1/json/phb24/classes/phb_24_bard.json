@@ -861,7 +861,7 @@
       },
       {
        "name": "Mantle of Inspiration",
-       "desc": "You weave fey magic into your song or dance. You can take a bonus action to expend a bardic inspiration and roll a bardic inspiration die. The doubled die value will be the amount of temporary hit points you can give to creatures within 60 ft of you (the amount of creatures is equal to your CHA modifier and they all receive the doubled value of the die). All affected creatures can then take a reaction as well to move up to their regular speed without causing opportunity attacks",
+       "desc": "You weave fey magic into your song or dance. You can take a bonus action to expend a bardic inspiration and roll a bardic inspiration die. The doubled die value will be the amount of temporary HP you can give to creatures within 60 ft of you (the amount of creatures is equal to your CHA modifier and they all receive the doubled value of the die). All affected creatures can then take a reaction as well to move up to their regular speed without causing opportunity attacks",
        "feature_data": []
       }
      ]

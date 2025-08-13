@@ -98,7 +98,7 @@
      },
      {
       "name": "Uncanny metabolism",
-      "desc": "When rolling for initiative you regain all expended focus points and gain an amount of hit points equal to the value of your martial arts die (after you rolled it, of course). Use once per long rest.",
+      "desc": "When rolling for initiative you regain all expended focus points and gain an amount of HP equal to the value of your martial arts die (after you rolled it, of course). Use once per long rest.",
       "feature_data": []
      }
     ],
@@ -321,7 +321,7 @@
        },
        {
         "name": "Patient defense",
-        "desc": "When you expend a focus point you gain temporary hit points equal to two rolls of your martial arts die"
+        "desc": "When you expend a focus point you gain temporary HP equal to two rolls of your martial arts die"
        },
        {
         "name": "Step of the wind",
@@ -694,7 +694,7 @@
       },
       {
        "name": "Hand of healing",
-       "desc": "Using a magic action you can expend 1 focus point and restore an amount of hit points equal to your rolled martial art die + WIS modifier",
+       "desc": "Using a magic action you can expend 1 focus point and restore an amount of HP equal to your rolled martial art die + WIS modifier",
        "feature_data": []
       },
       {
@@ -738,7 +738,7 @@
      "features": [
       {
        "name": "Hand of ultimate mercy",
-       "desc": "Using a magic action you can touch the corpse of a dead creature and bring it back for a day  by expending 5 focus points. it'll have hit points equal to 4d10 + WIS modifier. Conditions like blinded deafened paralised poisoned or stunned will be removed. Use once per long rest.",
+       "desc": "Using a magic action you can touch the corpse of a dead creature and bring it back for a day  by expending 5 focus points. it'll have HP equal to 4d10 + WIS modifier. Conditions like blinded deafened paralised poisoned or stunned will be removed. Use once per long rest.",
        "feature_data": []
       }
      ]
@@ -779,7 +779,7 @@
      "features": [
       {
        "name": "Wholeness of body",
-       "desc": "Using a bonus action, you can roll a martial arts die and regain that amount of hit points + WIS modifier. you can use this an amount of times equal to your WIS modifier and regain uses after doing a long rest.",
+       "desc": "Using a bonus action, you can roll a martial arts die and regain that amount of HP + WIS modifier. you can use this an amount of times equal to your WIS modifier and regain uses after doing a long rest.",
        "feature_data": []
       }
      ]

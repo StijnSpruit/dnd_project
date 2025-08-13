@@ -138,12 +138,12 @@
         "desc": "While in wild shape, you keep your personality, memories, and ability to speak"
        },
        {
-        "name": "Temporary hit points",
-        "desc": "You gain temporary hit points equal to your characters level when in wild shape"
+        "name": "Temporary HP",
+        "desc": "You gain temporary HP equal to your characters level when in wild shape"
        },
        {
         "name": "Statistics",
-        "desc": "While in wild shape, your statistics are changed by the beast's stat block. You keep your creature type, hit points, hit point die, your INT, WIS, and CHA scores, class features, languages, feats and your skill & saving throw proficiencies unless the skill & saving throw proficiency is higher on the beast statistics."
+        "desc": "While in wild shape, your statistics are changed by the beast's stat block. You keep your creature type, HP, hit point die, your INT, WIS, and CHA scores, class features, languages, feats and your skill & saving throw proficiencies unless the skill & saving throw proficiency is higher on the beast statistics."
        },
        {
         "name": "Spellcasting",
@@ -950,7 +950,7 @@
       },
       {
        "name": "Land's aid",
-       "desc": "Using a magic action, you can expend one wild shape use and grow a 10ft radius sphere of vitality-granting flowers and deadly thorns from a point within 60ft of you. one creature in that range has to make a saving throw taking 2d6 Necrotic damage on fail and half of that on succes. Another creature in that range regains 2d6 of hit points. the damage and healing increase by 1d6 at levels 10 and 14.",
+       "desc": "Using a magic action, you can expend one wild shape use and grow a 10ft radius sphere of vitality-granting flowers and deadly thorns from a point within 60ft of you. one creature in that range has to make a saving throw taking 2d6 Necrotic damage on fail and half of that on succes. Another creature in that range regains 2d6 of HP. the damage and healing increase by 1d6 at levels 10 and 14.",
        "feature_data": []
       }
      ]
@@ -1027,8 +1027,8 @@
          "desc": "Until wildshape ends, you have an AC of 13 + your WIS modifier when that AC is higher than the beast's AC"
         },
         {
-         "name": "Temporary hit points",
-         "desc": "You gain temporary hit points equal to triple your characters level when in wild shape"
+         "name": "Temporary HP",
+         "desc": "You gain temporary HP equal to triple your characters level when in wild shape"
         }
        ]
       }

@@ -1,0 +1,687 @@
+{
+ "class": {
+  "name": "Pladin",
+  "identifier": "paladin",
+  "desc": "paladin",
+  "hit_die": "d10",
+  "lvl_1_hitpoint": "d10 + CON modifier",
+  "hitpoint_per_level": "d10 + CON modifier or 6 + CON modifier",
+  "primary_ability": "STR and CHA",
+  "saving_throw_prof": "WIS and CHA",
+  "skill_prof": [
+   "Medicine",
+   "Insight",
+   "Religion",
+   "Persuasion",
+   "Intimidation",
+   "Athletics"
+  ],
+  "weapon_prof": [
+   "Simple weapons"
+  ],
+  "tool_prof": [],
+  "armor_training": [
+   "light armor",
+   "medium armor",
+   "heavy armor",
+   "shields"
+  ],
+  "levels": [
+   {
+    "level": "1st",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Lay on hands",
+      "desc": "You have healing power that refreshes when doing a long rest. With this power you can restore a number of HP",
+      "feature_data": []
+     },
+     {
+      "name": "Spellcasting",
+      "desc": "You know how to cast spells by praying. You can use spells on the paladin spell list",
+      "feature_data": [
+       {
+        "name": "Cantrips",
+        "desc": "You learn 3 cantrips of your choice from the paladin spell list. This choice can be changed whenever you gain a character level."
+       },
+       {
+        "name": "Spell slots",
+        "desc": "You have limited amounts of spell slots. See your paladin's level class features to see how many you're allowed to have"
+       },
+       {
+        "name": "Prepared spells",
+        "desc": "You prepare a list of spells available to you. See your paladin's level class features to see how many you're allowed to have prepared"
+       },
+       {
+        "name": "Replacing prepared spells",
+        "desc": "When your character level increases, you can change one spell of your spell list with another one with the correct spell slot"
+       },
+       {
+        "name": "Spellcasting ability",
+        "desc": "You use WIS as your spellcasting ability"
+       },
+       {
+        "name": "Spellcasting focus",
+        "desc": "you can use a holy symbol for spellcasting"
+       }
+      ]
+     },
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "-"
+     },
+     {
+      "name": "prepared spells",
+      "value": "2"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       2,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "2nd",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "-"
+     },
+     {
+      "name": "prepared spells",
+      "value": "3"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       2,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "3rd",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Paladin Subclass",
+      "desc": "Gain a subclass for your paladin character",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "4"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       3,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "4th",
+    "prof_bonus": "+2",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "5"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       3,
+       0,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "5th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "6"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       2,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "6th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "6"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       2,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "7th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "7"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "8th",
+    "prof_bonus": "+3",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "7"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "9th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "9"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       2,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "10th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "2"
+     },
+     {
+      "name": "prepared spells",
+      "value": "9"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       2,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "11th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "10"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "12th",
+    "prof_bonus": "+4",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "10"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "13th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "You don't gain additional features",
+      "desc": "read the title",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "11"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       1,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "14th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "11"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       1,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "15th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "12"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       2,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "16th",
+    "prof_bonus": "+5",
+    "features": [
+     {
+      "name": "Ability score improvement",
+      "desc": "Improve your Ability Score or choose another feat you qualify for",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "12"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       2,
+       0
+      ]
+     }
+    ]
+   },
+   {
+    "level": "17th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "You don't gain additional features",
+      "desc": "read the title",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "14"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "level": "18th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "",
+      "desc": "",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "14"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       1
+      ]
+     }
+    ]
+   },
+   {
+    "level": "19th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Epic boon",
+      "desc": "You gain an Epic Boon feat or another feat you qualify for.",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "15"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       2
+      ]
+     }
+    ]
+   },
+   {
+    "level": "20th",
+    "prof_bonus": "+6",
+    "features": [
+     {
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
+      "feature_data": []
+     }
+    ],
+    "class_specific": [
+     {
+      "name": "channel divinity",
+      "value": "3"
+     },
+     {
+      "name": "prepared spells",
+      "value": "14"
+     },
+     {
+      "name": "spell slots",
+      "value": [
+       4,
+       3,
+       3,
+       3,
+       1
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

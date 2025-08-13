@@ -573,7 +573,7 @@
         },
         {
          "name": "Rally",
-         "desc": "Using a bonus action, you can expend one superiority die to give an ally within 30ft of you that can see/hear you an amount of temporary hit points equal to the roll value + half your fighter level (rounded down, level 3 would be 1 added to the roll.)"
+         "desc": "Using a bonus action, you can expend one superiority die to give an ally within 30ft of you that can see/hear you an amount of temporary HP equal to the roll value + half your fighter level (rounded down, level 3 would be 1 added to the roll.)"
         },
         {
          "name": "Riposte",
@@ -701,7 +701,7 @@
         },
         {
          "name": "Heroic rally",
-         "desc": "On the start of your turn, you gain hit points equal to 5 + CON modifier if you have damage and have at least 1 hit point"
+         "desc": "On the start of your turn, you gain HP equal to 5 + CON modifier if you have damage and have at least 1 hit point"
         }
        ]
       }

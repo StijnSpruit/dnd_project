@@ -334,7 +334,7 @@
     "features": [
      {
       "name": "Relentless Rage",
-      "desc": "If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed your hitpoints will equal double of your barbarian level.",
+      "desc": "If you drop to 0 HP while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed your hitpoints will equal double of your barbarian level.",
       "feature_data": []
      }
     ],
@@ -648,7 +648,7 @@
         },
         {
          "name": "Revivification",
-         "desc": "You can revive a creature within 30ft of you when they have 0HP. You can make a reaction and expend one use of Rage to change the creatures Hit Points to the same number as your barbarian level"
+         "desc": "You can revive a creature within 30ft of you when they have 0HP. You can make a reaction and expend one use of Rage to change the creatures HP to the same number as your barbarian level"
         }
        ]
       }
@@ -671,11 +671,11 @@
        "feature_data": [
         {
          "name": "Vitality surge",
-         "desc": "You gain an amount of Temporary Hit Points equal to your barbarian level when you enter Rage"
+         "desc": "You gain an amount of Temporary HP equal to your barbarian level when you enter Rage"
         },
         {
          "name": "Life giving force",
-         "desc": "At each start of your turn while in Rage, you can choose another creature within 10ft of you to gain Temporary Hit Points equal to an amount of d6's equal to your Rage Damage bonus. These hit points fade away when your rage ends."
+         "desc": "At each start of your turn while in Rage, you can choose another creature within 10ft of you to gain Temporary HP equal to an amount of d6's equal to your Rage Damage bonus. These HP fade away when your rage ends."
         }
        ]
       }
