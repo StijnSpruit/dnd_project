@@ -33,7 +33,7 @@
     "features": [
      {
       "name": "Lay on hands",
-      "desc": "You have healing power that refreshes when doing a long rest. With this power you can restore a number of HP",
+      "desc": "You have healing power that refreshes when doing a long rest. With this power you can restore a number of HP equal to 5x your paladin level. Using a bonus action you can heal a creature you touch (until you are out of HP healing energy). You can also use 5 HP to remove the poisoned condition from creatures",
       "feature_data": []
      },
      {
@@ -41,24 +41,20 @@
       "desc": "You know how to cast spells by praying. You can use spells on the paladin spell list",
       "feature_data": [
        {
-        "name": "Cantrips",
-        "desc": "You learn 3 cantrips of your choice from the paladin spell list. This choice can be changed whenever you gain a character level."
-       },
-       {
         "name": "Spell slots",
         "desc": "You have limited amounts of spell slots. See your paladin's level class features to see how many you're allowed to have"
        },
        {
-        "name": "Prepared spells",
-        "desc": "You prepare a list of spells available to you. See your paladin's level class features to see how many you're allowed to have prepared"
+        "name": "Prepared spells of level 1+",
+        "desc": "You prepare a list of lvl 1+ spells available to you. See your paladin's level class features to see how many you're allowed to have prepared"
        },
        {
         "name": "Replacing prepared spells",
-        "desc": "When your character level increases, you can change one spell of your spell list with another one with the correct spell slot"
+        "desc": "When you do a long rest, you can change one spell of your spell list with another one with the correct spell slot"
        },
        {
         "name": "Spellcasting ability",
-        "desc": "You use WIS as your spellcasting ability"
+        "desc": "You use CHA as your spellcasting ability"
        },
        {
         "name": "Spellcasting focus",
@@ -67,8 +63,8 @@
       ]
      },
      {
-      "name": "",
-      "desc": "",
+      "name": "Weapon mastery",
+      "desc": "You can use the mastery properties of two weapon types. You can swap these masteries after a long rest",
       "feature_data": []
      }
     ],
@@ -98,8 +94,18 @@
     "prof_bonus": "+2",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Fighting style",
+      "desc": "Gain a fighting style or choose the option below:",
+      "feature_data": [
+       {
+        "name": "Blessed warrior",
+        "desc": "You know two cleric cantrips which count as paladin spells for you. When you gain a paladin level you can change the chosen cantrips."
+       }
+      ]
+     },
+     {
+      "name": "Paladin's smite",
+      "desc": "You always know the Divine smite spell, which you can cast once per long rest without using a spell slot.",
       "feature_data": []
      }
     ],
