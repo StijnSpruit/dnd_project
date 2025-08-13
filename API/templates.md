@@ -126,9 +126,25 @@ empty class template:
   "identifier": "",
   "desc": "",
   "hit_die": "",
-  "lvl_1_hitpoint": "",
-  "hitpoint_per_level": "",
-  "saving_throw_prof": "",
+  "lvl_1_hitpoint": "d_ + ___ modifier",
+  "hitpoint_per_level": "d_ + ___ modifier or _ + ___ modifier",
+  "primary_ability": "___ or ___",
+  "saving_throw_prof": "___ and ___",
+  "skill_prof": [
+   "History",
+   "Insight",
+   "Perception",
+   "Persuasion",
+   "Survival",
+   "Intimidation",
+   "Acrobatics",
+   "Animal handling",
+   "Athletics"
+  ],
+  "weapon_prof": ["Simple weapons"],
+  "tool_prof": [],
+  "armor_training": [
+   "light armor"],
   "levels": [
    {
     "level": "1st",
