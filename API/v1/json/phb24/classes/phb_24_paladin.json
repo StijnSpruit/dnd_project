@@ -138,6 +138,16 @@
       "name": "Paladin Subclass",
       "desc": "Gain a subclass for your paladin character",
       "feature_data": []
+     },
+     {
+      "name": "Channel divinity",
+      "desc": "you can use divine energy to use magical effects. After expending you regain one use after a short rest and all after a long rest. Each time you use channel divinity you will be granted an effect. you start with just this one:",
+      "feature_data": [
+        {
+            "name": "Divine sense",
+            "desc": "Using a bonus action, you can know the position of celectials, fiends and undead creatures within 60ft of yourself."
+        }
+      ]
      }
     ],
     "class_specific": [
@@ -197,8 +207,13 @@
     "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Extra attack",
+      "desc": "You can do two attacks on your turn instead of one",
+      "feature_data": []
+     },
+     {
+      "name": "Faithfull steed",
+      "desc": "You always know the Find steed spell, which you can cast once per long rest without using a spell slot.",
       "feature_data": []
      }
     ],
@@ -228,8 +243,8 @@
     "prof_bonus": "+3",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Aura of protection",
+      "desc": "You and allies within 10ft of you gain your CHA modifier as a bonus on saving throws.",
       "feature_data": []
      }
     ],
@@ -321,8 +336,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Abjure foes",
+      "desc": "Using a magic action, you can expend one channel divinity to target a number of creatures equal to your CHA modifier. They must succeed on a WIS saving throw or be frightened for 1 minute or until damaged. The targeted creatures can only move, take an action or a bonus action. ",
       "feature_data": []
      }
     ],
@@ -352,8 +367,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Aura of courage",
+      "desc": "You and allies are immune to being frightened while in your aura of protection",
       "feature_data": []
      }
     ],
@@ -383,8 +398,8 @@
     "prof_bonus": "+4",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Radiant strikes",
+      "desc": "When attacking a creature with a weapon or an unarmed strike and hitting it, the target takes an extra 1d8 of radiant damage",
       "feature_data": []
      }
     ],
@@ -476,8 +491,8 @@
     "prof_bonus": "+5",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Restoring touch",
+      "desc": "You can remove one of these conditions when using lay on hands: blinded, charmed, deafened, frightened, paralised or stunned. Just like poisoned, you have to use 5 HP for this which then can't be used to restore HP of the creature anymore.",
       "feature_data": []
      }
     ],
@@ -600,8 +615,13 @@
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "",
-      "desc": "",
+      "name": "Subclass feature",
+      "desc": "Gain a subclass feature of your subclass",
+      "feature_data": []
+     },
+     {
+      "name": "Aura expansion",
+      "desc": "Your aura of protection range becomes 30ft",
       "feature_data": []
      }
     ],
