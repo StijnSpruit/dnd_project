@@ -143,10 +143,10 @@
       "name": "Channel divinity",
       "desc": "you can use divine energy to use magical effects. After expending you regain one use after a short rest and all after a long rest. Each time you use channel divinity you will be granted an effect. you start with just this one:",
       "feature_data": [
-        {
-            "name": "Divine sense",
-            "desc": "Using a bonus action, you can know the position of celectials, fiends and undead creatures within 60ft of yourself."
-        }
+       {
+        "name": "Divine sense",
+        "desc": "Using a bonus action, you can know the position of celectials, fiends and undead creatures within 60ft of yourself."
+       }
       ]
      }
     ],
@@ -615,8 +615,8 @@
     "prof_bonus": "+6",
     "features": [
      {
-      "name": "Subclass feature",
-      "desc": "Gain a subclass feature of your subclass",
+      "name": "Optional subclass feature",
+      "desc": "Gain a subclass feature of your subclass (only for some subclasses)",
       "feature_data": []
      },
      {
@@ -709,5 +709,320 @@
     ]
    }
   ]
- }
+ },
+ "subclasses": [
+  {
+   "name": "Oath of the ancients",
+   "identifier": "ancients",
+   "subclass_of": "paladin",
+   "desc": "You cherish light",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "Oath of the ancients spells",
+       "desc": "You always know the following spells:",
+       "feature_data": [
+        {
+         "name": "3rd",
+         "desc": "You know these spells: Ensnaring strike, Speak with animals"
+        },
+        {
+         "name": "5th",
+         "desc": "You know these spells: Misty step, Moonbeam"
+        },
+        {
+         "name": "9th",
+         "desc": "You know these spells: Plant growth, Protection from energy"
+        },
+        {
+         "name": "13th",
+         "desc": "You know these spells: Ice storm, Stone skin"
+        },
+        {
+         "name": "17th",
+         "desc": "You know these spells: Commune with nature, Tree stride"
+        }
+       ]
+      },
+      {
+       "name": "Nature's wrath",
+       "desc": "Using a magic action, you can expend one channel divinity to summon spectral vines around creatures within 15ft. they must succeed on a STR saving throw or be restrained for a minute. on each turn the creature has to make the save again, only freeing themselves on a success",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "7th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "18th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "20th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "7th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "18th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "20th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "7th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "18th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "20th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "",
+   "identifier": "",
+   "subclass_of": "",
+   "desc": "",
+   "levels": [
+    {
+     "level": "3rd",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      },
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "7th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "15th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "18th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    },
+    {
+     "level": "20th",
+     "features": [
+      {
+       "name": "",
+       "desc": "",
+       "feature_data": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
