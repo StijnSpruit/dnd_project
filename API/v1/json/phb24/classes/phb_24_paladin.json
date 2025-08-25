@@ -757,8 +757,8 @@
      "level": "7th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Aura of Warding",
+       "desc": "You and your allies are resistant to necrotic, psychic and radiant damage while in your aura of protection",
        "feature_data": []
       }
      ]
@@ -767,18 +767,8 @@
      "level": "15th",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
-      }
-     ]
-    },
-    {
-     "level": "15th",
-     "features": [
-      {
-       "name": "",
-       "desc": "",
+       "name": "Undying sentinel",
+       "desc": "When taking damage and being reduced to 0 HP (but not killed) you can drop a single HP instead and regain a number of HP equal to triple your paladin level. You can use this feature once per long rest",
        "feature_data": []
       }
      ]
@@ -787,8 +777,8 @@
      "level": "18th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Better luck next time",
+       "desc": "Unfortunately you dont gain any feature at this level for this subclass",
        "feature_data": []
       }
      ]
@@ -797,31 +787,65 @@
      "level": "20th",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
+       "name": "Elder champion",
+       "desc": "Using a bonus action you can improve your aura of protetion for a minute, which gives you the benefits below. Use once per long rest",
+       "feature_data": [
+        {
+         "name": "Diminish defiance",
+         "desc": "Enemies have disadvantage on saving throws against spells and channel divinity effects you use"
+        },
+        {
+         "name": "Regeneration",
+         "desc": "at the start of each of your turns you regain HP equal to 10"
+        },
+        {
+         "name": "Swift spells",
+         "desc": "Spells that have a casting time of an action can be cast as a bonus action instead."
+        }
+       ]
       }
      ]
     }
    ]
   },
   {
-   "name": "",
-   "identifier": "",
-   "subclass_of": "",
-   "desc": "",
+   "name": "Oath of devotion",
+   "identifier": "devotion",
+   "subclass_of": "paladin",
+   "desc": "You devote yourself to justice and order",
    "levels": [
     {
      "level": "3rd",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
+       "name": "Oath of devotion spells",
+       "desc": "You always know the following spells:",
+       "feature_data": [
+        {
+         "name": "3rd",
+         "desc": "You know these spells: Shield of faith, Protection from evil and good"
+        },
+        {
+         "name": "5th",
+         "desc": "You know these spells: Aid, Zone of truth"
+        },
+        {
+         "name": "9th",
+         "desc": "You know these spells: Beacon of hope, Dispel magic"
+        },
+        {
+         "name": "13th",
+         "desc": "You know these spells: Freedom of movement, Guardian of faith"
+        },
+        {
+         "name": "17th",
+         "desc": "You know these spells: Commune, Flame strike"
+        }
+       ]
       },
       {
-       "name": "",
-       "desc": "",
+       "name": "Sacred weapon",
+       "desc": "Using an action you can use one channel divinity to give one melee weapon you're holding a bonus equal to your CHA modifier on attack rolls with that weapon for 10 minutes, giving either its normal damage or radiance damage. the weapon also lights up. there's bright light in a radius of 20ft and dim light for another 20ft.",
        "feature_data": []
       }
      ]
@@ -830,8 +854,8 @@
      "level": "7th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Aura of devotion",
+       "desc": "You and your allies are resistant to being charmed while in your aura of protection. stops condition if already charmed, until out of the area",
        "feature_data": []
       }
      ]
@@ -840,18 +864,8 @@
      "level": "15th",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
-      }
-     ]
-    },
-    {
-     "level": "15th",
-     "features": [
-      {
-       "name": "",
-       "desc": "",
+       "name": "Smite of protection",
+       "desc": "When using divine smite you and your allies have half cover while in your aura of protection until the start of your next turn",
        "feature_data": []
       }
      ]
@@ -860,8 +874,8 @@
      "level": "18th",
      "features": [
       {
-       "name": "",
-       "desc": "",
+       "name": "Better luck next time",
+       "desc": "Unfortunately you dont gain any feature at this level for this subclass",
        "feature_data": []
       }
      ]
@@ -870,30 +884,64 @@
      "level": "20th",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
+       "name": "Holy nimbus",
+       "desc": "Using a bonus action you can improve your aura of protetion for 10 minutes, which gives you the benefits below. Use once per long rest",
+       "feature_data": [
+        {
+         "name": "Holy ward",
+         "desc": ""
+        },
+        {
+         "name": "Radiant damage",
+         "desc": "When an enemy starts its turn in your aura itll take radiant damage equal to your CHA modifier + Prof bonus"
+        },
+        {
+         "name": "Sunlight",
+         "desc": "The aura is filled with bright sunlight"
+        }
+       ]
       }
      ]
     }
    ]
   },
   {
-   "name": "",
-   "identifier": "",
-   "subclass_of": "",
-   "desc": "",
+   "name": "Oath of glory",
+   "identifier": "glory",
+   "subclass_of": "paladin",
+   "desc": "You believe in heroism and try to achieve glory",
    "levels": [
     {
      "level": "3rd",
      "features": [
       {
-       "name": "",
-       "desc": "",
-       "feature_data": []
+       "name": "Oath of devotion spells",
+       "desc": "You always know the following spells:",
+       "feature_data": [
+        {
+         "name": "3rd",
+         "desc": "You know these spells: Guiding bolt, heroism"
+        },
+        {
+         "name": "5th",
+         "desc": "You know these spells: Enhance ability, Magic weapon"
+        },
+        {
+         "name": "9th",
+         "desc": "You know these spells: Haste, Protection from energy"
+        },
+        {
+         "name": "13th",
+         "desc": "You know these spells: Freedom of movement, Compulsion"
+        },
+        {
+         "name": "17th",
+         "desc": "You know these spells: Legend lore, Yolandes regal presence"
+        }
+       ]
       },
       {
-       "name": "",
+       "name": "Inspiring smite",
        "desc": "",
        "feature_data": []
       }
